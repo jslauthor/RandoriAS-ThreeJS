@@ -10,7 +10,8 @@ public class Matrix4
 	
 	public var elements:Number32Array;
 
-	public function new(n11:Number, n12:Number, n13:Number, n14:Number, n21:Number, n22:Number, n23:Number, n24:Number, n31:Number, n32:Number, n33:Number, n34:Number, n41:Number, n42:Number, n43:Number, n44:Number):void;
+	public function Matrix4(n11:Number, n12:Number, n13:Number, n14:Number, n21:Number, n22:Number, n23:Number, n24:Number, n31:Number, n32:Number, n33:Number, n34:Number, n41:Number, n42:Number, n43:Number, n44:Number):void {}
+
 	public function set(n11:Number, n12:Number, n13:Number, n14:Number, n21:Number, n22:Number, n23:Number, n24:Number, n31:Number, n32:Number, n33:Number, n34:Number, n41:Number, n42:Number, n43:Number, n44:Number):Matrix4;
 	public function identity():Matrix4;
 	public function copy():Matrix4;

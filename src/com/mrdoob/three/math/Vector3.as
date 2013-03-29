@@ -10,7 +10,8 @@ public class Vector3
 	public var y:Number;
 	public var z:Number;
 	
-	public function new(x:Number, y:Number, z:Number):void;
+	public function Vector3(x:Number, y:Number, z:Number):void {}
+
 	public function set(x:Number, y:Number, z:Number):Vector3;
 	public function setX(x:Number):Vector3;
 	public function setY(y:Number):Vector3;

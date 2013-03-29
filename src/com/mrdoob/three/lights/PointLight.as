@@ -10,7 +10,8 @@ public class PointLight extends Light
 	public var intensity:Number;
 	public var distance:Number;
 	
-	public function new(hex:Number, intensity:Number, distance:Number):void;
+	public function PointLight(hex:Number, intensity:Number, distance:Number):void {}
+
 
 }
 

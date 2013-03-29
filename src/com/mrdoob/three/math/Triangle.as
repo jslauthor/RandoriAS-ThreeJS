@@ -10,7 +10,8 @@ public class Triangle
 	public var b:Vector3;
 	public var c:Vector3;
 	
-	public function new(a:Vector3, b:Vector3, c:Vector3):void;
+	public function Triangle(a:Vector3, b:Vector3, c:Vector3):void {}
+
 	public function set(a:Vector3, b:Vector3, c:Vector3):void;
 	public function setFromPointsAndIndices(points:Vector.<Vector3>, index1:int, index2:int, index3:int):Triangle;
 	public function copy(triangle:Triangle):Triangle;

@@ -11,7 +11,7 @@ public class RenderableObject
 	public var object:Object3D;	
 	public var z:Number;
 
-	public function new():void;
+	public function RenderableObject():void {}
 
 }
 

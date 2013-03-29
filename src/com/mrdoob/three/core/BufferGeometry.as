@@ -17,7 +17,7 @@ public class BufferGeometry
 
 	public var morphTargets = Array<{name:String, vertices:Vector.<Vector3>}>;
 	
-	public function new():void;
+	public function BufferGeometry():void {}
 	public function applyMatrix(matrix:Matrix4);
 	public function computeVertexNormals();
 	public function computeTangents()

@@ -9,7 +9,8 @@ public class Plane
 	public var normal:Vector3;
 	public var constant:Number;
 	
-	public function new(normal:Vector3, constant:Number):void;
+	public function Plane(normal:Vector3, constant:Number):void {}
+
 	public function clone():Plane;
 	
 	public function set(normal:Vector3, constant:Number):Plane;

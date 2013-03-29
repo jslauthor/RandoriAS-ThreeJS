@@ -10,7 +10,8 @@ public class Box2
 	public var max:Number;
 	
 	public function set(min:Number, max:Number):Box2D;
-	public function new(min:Number, max:Number):void;
+	public function Box2(min:Number, max:Number):void {}
+
 	public function setFromPoints(points:Array<{x:Number, y:Number}>):Box2;
 	public function setFromCenterAndSize():Box2;
 	public function copy(box:Box2):Box2;

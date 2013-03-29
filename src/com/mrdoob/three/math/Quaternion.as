@@ -11,7 +11,8 @@ public class Quaternion
 	public var z:Number;
 	public var w:Number;
 	
-	public function new(x:Number, y:Number, z:Number, w:Number):Void;
+	public function Quaternion(x:Number, y:Number, z:Number, w:Number):void {}
+
 	public function set(x:Number, y:Number, z:Number, w:Number):Quaternion;
 	public function copy(quaternion:Quaternion):Quaternion;
 	public function setFromEuler(vector:Vector3, order:String):Quaternion;

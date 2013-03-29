@@ -6,7 +6,7 @@ package com.mrdoob.three.core
 public class Projector
 {
 	
-	public function new():void;
+	public function Projector():void {}
 	public function projectVector(vector:Vector3, camera:Camera):Vector3;
 	public function unprojectVector(vector:Vector3, camera:Camera):Vector3;
 	public function pickingRay(vector:Vector3, camera:Camera):Raycaster;

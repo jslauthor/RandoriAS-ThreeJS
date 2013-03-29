@@ -8,7 +8,8 @@ public class FogExp2
  	public var color:Color;
     public var density:Number; // 0.00025
     
-    public function new(hex:int, density:Number):void;
+    public function FogExp2(hex:int, density:Number):void {}
+
     public function clone():Fog;	
 
 }

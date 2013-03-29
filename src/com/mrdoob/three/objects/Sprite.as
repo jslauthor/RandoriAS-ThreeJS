@@ -14,7 +14,8 @@ public class Sprite extends Object3D
 	public var rotation3d:Vector3;
 	public var rotation:Number;
 	
-	public function new(material:Material):void;
+	public function Sprite(material:Material):void {}
+
 	public var updateMatrix();
 	override public function clone(object:Sprite):Sprite;
 

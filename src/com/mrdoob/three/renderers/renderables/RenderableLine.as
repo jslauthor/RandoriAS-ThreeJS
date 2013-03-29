@@ -11,7 +11,7 @@ public class RenderableLine
 	public var material:Material
 	public var z:Number;
 
-	public function new():void;
+	public function RenderableLine():void {}
 
 }
 

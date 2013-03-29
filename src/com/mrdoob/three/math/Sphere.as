@@ -9,7 +9,8 @@ public class Sphere
 	public var center:Vector3;
 	public var radius:Number;
 	
-	public function new(center:Vector3, radius:Number):void;
+	public function Sphere(center:Vector3, radius:Number):void {}
+
 	public function set(center:Vector3, radius:Number):Sphere;
 	public function setFromCenterAndPoints(center:Vector3, points:Vector.<Vector3>):Sphere;
 	public function copy(sphere:Sphere):Sphere;

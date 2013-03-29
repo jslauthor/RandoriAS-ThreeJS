@@ -11,7 +11,8 @@ public class Vector4
 	public var z:Number;
 	public var w:Number;
 	
-	public function new(x:Number, y:Number, z:Number, w:Number):void;
+	public function Vector4(x:Number, y:Number, z:Number, w:Number):void {}
+
 	public function set(x:Number, y:Number, z:Number, w:Number):Vector4;
 	public function setX(x:Number):Vector4;
 	public function setY(y:Number):Vector4;

@@ -8,7 +8,8 @@ public class Ray
 	public var origin : Vector3;
     public var direction : Vector3;
 	
-	public function new(origin:Vector3, direction:Vector3):void;
+	public function Ray(origin:Vector3, direction:Vector3):void {}
+
 	public function set(origin:Vector3, direction:Vector3):Ray;
 	public function copy(ray:Ray):Ray;
 	public function at(target:Vector3, optionalTarget:Vector3):Vector3;

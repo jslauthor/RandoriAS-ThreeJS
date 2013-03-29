@@ -9,7 +9,7 @@ public class Light extends Object3D
 {
 	
 	public var color:Color;
-	public function new(hex:Number):void;
+	public function Light(hex:Number):void {}
 
 }
 

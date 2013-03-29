@@ -11,7 +11,8 @@ public class Raycaster
 	public var far:Number;
 	public var precision:Number;
 	
-	public function new(origin:Vector3, direction:Vector3, near:Number, far:Number):Void;
+	public function Raycaster(origin:Vector3, direction:Vector3, near:Number, far:Number):void {}
+
 	public function set(origin:Vector3, direction:Vector3):Void;
 	public function intersectObject(origin:Vector3, recursive:Bool):Void;
 	public function intersectObjects(origin:Vector3, recursive:Bool):Void;

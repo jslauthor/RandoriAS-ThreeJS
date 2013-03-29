@@ -15,7 +15,7 @@ public class RenderableParticle
 	public var rotation:*; // TODO
 	public var scale:Vector2;
 
-	public function new():Void;	
+	public function RenderableParticle():void {}
 
 }
 

@@ -24,7 +24,7 @@ public class RenderableFace3
 	public var uvs:Array<Array<*>>;
 
 	public var z:Number;
-	public function new():void;
+	public function RenderableFace():void {}
 
 }
 

@@ -12,7 +12,7 @@ public class Clock
 
 	public var running:Bool;
 	
-	public function new (autoStart:Bool):void {}
+	public function Clock(autoStart:Bool):void {}
 	public function start():void;
 	public function stop():void;
 	public function getElapsedTime():void;

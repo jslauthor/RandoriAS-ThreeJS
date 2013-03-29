@@ -10,7 +10,8 @@ public class Color
 	public var g:Number;
 	public var b:Number;
 
-	public function new(value:Number):void;
+	public function Color(value:Number):void {}
+
 	public function set(value:*):void; // takes int or string
 	public function copy(color:Color):Color;
 	public function copyGammaToLinear(color:Color):Color;

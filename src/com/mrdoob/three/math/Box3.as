@@ -9,7 +9,8 @@ public class Box3
 	public var min:Number;
 	public var max:Number;
 	
-	public function new(min:Number, max:Number):void;
+	public function Box3(min:Number, max:Number):void {}
+
 	public function set(min:Number, max:Number):Box3D;
 	public function setFromPoints(points:Array<{x:Number, y:Number}>):Box2;
 	public function setFromCenterAndSize():Box2;

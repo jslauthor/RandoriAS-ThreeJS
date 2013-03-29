@@ -11,7 +11,7 @@ public class LOD extends Object3D
 	
 	public var LODs:Array<{visibleAtDistance:Number, object3D:Object3D}>;
 	
-	public function new():Void;		
+	public function LOD():void {}
 	public function addLevel(object3D:Object3D, visibleAtDistance:Bool):Void;
 	public function update(camera:Camera):Void;
 

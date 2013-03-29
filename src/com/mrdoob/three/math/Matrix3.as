@@ -10,7 +10,8 @@ public class Matrix3
 	
 	public var elements:Number32Array;
 	
-	public function new(n11:Number, n12:Number, n13:Number, n21:Number, n22:Number, n23:Number, n31:Number, n32:Number, n33:Number):void;
+	public function Matrix3(n11:Number, n12:Number, n13:Number, n21:Number, n22:Number, n23:Number, n31:Number, n32:Number, n33:Number):void {}
+
 	public function set(n11:Number, n12:Number, n13:Number, n21:Number, n22:Number, n23:Number, n31:Number, n32:Number, n33:Number):Matrix3;
 	public function identity():Matrix3;
 	public function copy():Matrix3;

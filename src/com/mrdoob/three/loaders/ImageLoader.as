@@ -6,7 +6,7 @@ package com.mrdoob.three.loaders
 public class ImageLoader extends EventDispatcher
 {
 	
-	public function new():void;
+	public function ImageLoader():void {}
 	public function load(url:String):void;
 
 }

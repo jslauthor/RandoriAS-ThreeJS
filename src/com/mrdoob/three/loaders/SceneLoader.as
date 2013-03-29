@@ -12,7 +12,7 @@ public class SceneLoader
     public var callbackSync:Function;
     public var callbackProgress:Function;
 
-    public function new():void;
+    public function SceneLoader():void {}
     public function load(url:String, callBackFinished:Function):void;
 
 }

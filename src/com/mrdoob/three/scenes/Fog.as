@@ -8,7 +8,8 @@ public class Fog
  	public var color:Color;
     public var near:Number; // 1
     public var far:Number; // 1000
-    public function new(hex:int, near:Number, far:Number):void;
+    public function Fog(hex:int, near:Number, far:Number):void {}
+
     public function clone():Fog;		
 
 }

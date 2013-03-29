@@ -9,7 +9,7 @@ public class RenderableVertex
 	public var positionWorld:Vector3;
 	public var positionScreen:Vector4;
 	
-	public function new():void;
+	public function RenderableVertex():void {}
 	public function clone(vertex:RenderableVertex):void;
 
 }

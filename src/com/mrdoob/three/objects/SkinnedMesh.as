@@ -21,7 +21,8 @@ public class SkinnedMesh extends Mesh
 	public var boneTextureHeight:Number;
 	public var boneTexture:DataTexture;
 	
-	public function new(geometry:Geometry, material:Material, useVertexTexture:Bool):void;
+	public function SkinnedMesh(geometry:Geometry, material:Material, useVertexTexture:Bool):void {}
+
 	public function addBone(bone:Bone):Bone;
 	public function updateMatrixWorld(force:Bool):void;
 	public function pose():void;

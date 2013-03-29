@@ -18,7 +18,8 @@ public class MorphAnimMesh extends Mesh
 	public var direction:Number;
 	public var directionBackwards:Bool;
 	
-	public function new(geometry:Geometry, material:Material):void;
+	public function MorphAnimMesh(geometry:Geometry, material:Material):void {}
+
 	public function setFrameRange(start:Number, end:Number):void;
 	public function setDirectionForward():void;
 	public function setDirectionBackward():void;

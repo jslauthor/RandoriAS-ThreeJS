@@ -8,7 +8,7 @@ import com.mrdoob.three.core;
 public class LoadingMonitor extends EventDispatcher
 {
 	
-	public function new():Void;
+	public function LoadingMonitor():void {}
 	public function add(loader:Loader):Void;
 
 }
