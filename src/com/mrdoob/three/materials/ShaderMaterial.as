@@ -1,7 +1,9 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.ShaderMaterial")
-extern class ShaderMaterial extends Material
+
+[JavaScript(export="false", name="THREE.ShaderMaterial")]
+public class ShaderMaterial extends Material
 {
 	
 	public var color:Color;
@@ -18,7 +20,9 @@ extern class ShaderMaterial extends Material
 	public var uvOffset:Vector2;
 	public var uvScale:Vector2;
 
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():ShaderMaterial;	
+
+}
 
 }

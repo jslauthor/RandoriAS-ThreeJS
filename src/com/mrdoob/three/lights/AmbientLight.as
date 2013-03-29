@@ -1,9 +1,13 @@
-package com.mrdoob.three.lights;
+package com.mrdoob.three.lights
+{
 
-@:native("THREE.AmbientLight")
+
+[JavaScript(export="false", name="THREE.AmbientLight")]
 class AmbientLight extends Light
 {
 	
-	public function new(hex:Float);
+	public function new(hex:Number);
+
+}
 
 }

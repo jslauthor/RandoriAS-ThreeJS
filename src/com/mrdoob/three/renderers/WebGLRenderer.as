@@ -1,16 +1,18 @@
-package com.mrdoob.three.renderers.webglshaders;
+package com.mrdoob.three.renderers.webglshaders
+{
+
 
 import js.Dom.HtmlDom;
 import com.mrdoob.three.renderers.context.WebGLContext;
 
-@:native("THREE.WebGLRenderer")
-extern class WebGLRenderer implements IRenderer
+[JavaScript(export="false", name="THREE.WebGLRenderer")]
+public class WebGLRenderer implements IRenderer
 {
 
 	public var domElement:js.Dom.HtmlDom; // canvas
     public var context:WebGLContext; // initGL()
     
-    public var devicePixelRatio:Float;
+    public var devicePixelRatio:Number;
     
     public var autoClear:Bool; // true
     public var autoClearColor:Bool; // true
@@ -26,69 +28,71 @@ extern class WebGLRenderer implements IRenderer
 
     public var shadowMapEnabled:Bool; // false
     public var shadowMapAutoUpdate:Bool; // true
-    public var shadowMapType:Int;
+    public var shadowMapType:int;
 	public var shadowMapCullFace:Bool; // true
 	public var shadowMapDebug:Bool; // true
 	public var shadowMapCascade:Bool; // true
 	
-    public var maxMorphTargets:Int; // 8
-    public var maxMorphNormals:Int;
+    public var maxMorphTargets:int; // 8
+    public var maxMorphNormals:int;
     
     public var autoScaleCubemaps:Bool; // true
-    public var renderPluginsPre:Array<Dynamic>; // TODO
-    public var renderPluginsPost:Array<Dynamic>; // TODO
+    public var renderPluginsPre:Array<*>; // TODO
+    public var renderPluginsPost:Array<*>; // TODO
     
     public var info:
     {
-        memory:{ programs:Int, geometries:Int, textures:Int },
-        render:{ calls:Int, vertices:Int, faces:Int, points:Int }
+        memory:{ programs:int, geometries:int, textures:int },
+        render:{ calls:int, vertices:int, faces:int, points:int }
     };
     
-    public function new(?parameters:Dynamic):Void;
+    public function new(parameters:*):void;
     public function getContext():WebGLContext;
     public function supportsVertexTextures():Bool;
-   	public function supportsFloatTextures():Bool;
+   	public function supportsNumberTextures():Bool;
    	public function supportsStandardDerivatives:Bool;
     public function supportsCompressedTextureS3TC():Bool;
-    public function getMaxAnisotropy():Float;
-    public function getPrecision():Float;
+    public function getMaxAnisotropy():Number;
+    public function getPrecision():Number;
     
-    public function setSize(width:Float, height:Float):Void;
-    public function setViewport(x:Float, y:Float, width:Float, height:Float):Void;
-    public function setScissor(x:Float, y:Float, width:Float, height:Float):Void;
-    public function enableScissorTest(enable:Bool):Void;
-    public function setClearColorHex(hexColor:Int, opacity:Float):Void;
-    public function setClearColor(color:Color, opacity:Float):Void;
+    public function setSize(width:Number, height:Number):void;
+    public function setViewport(x:Number, y:Number, width:Number, height:Number):void;
+    public function setScissor(x:Number, y:Number, width:Number, height:Number):void;
+    public function enableScissorTest(enable:Bool):void;
+    public function setClearColorHex(hexColor:int, opacity:Number):void;
+    public function setClearColor(color:Color, opacity:Number):void;
     public function getClearColor():Color;
-    public function getClearAlpha():Float;
-    public function clear(color:Bool, depth:Bool, stencil:Bool):Void;
-    public function clearTarget(renderTarget:WebGLRenderTarget, color:Bool, depth:Bool, stencil:Bool):Void;
+    public function getClearAlpha():Number;
+    public function clear(color:Bool, depth:Bool, stencil:Bool):void;
+    public function clearTarget(renderTarget:WebGLRenderTarget, color:Bool, depth:Bool, stencil:Bool):void;
     
-    public function addPostPlugin(plugin:Dynamic):Void; // TODO
-    public function addPrePlugin(plugin:Dynamic):Void; // TODO
+    public function addPostPlugin(plugin:*):void; // TODO
+    public function addPrePlugin(plugin:*):void; // TODO
     
-    public function deallocateGeometry(geometry:Geometry):Void;
-    public function deallocateRenderTarget(renderTarget:WebGLRenderTarget):Void;
-    public function deallocateMaterial(material:Material):Void;
-    public function deallocateTexture(texture:Texture):Void;
-    public function updateShadowMap(scene:Scene, camera:Camera):Void;
+    public function deallocateGeometry(geometry:Geometry):void;
+    public function deallocateRenderTarget(renderTarget:WebGLRenderTarget):void;
+    public function deallocateMaterial(material:Material):void;
+    public function deallocateTexture(texture:Texture):void;
+    public function updateShadowMap(scene:Scene, camera:Camera):void;
     
-    public function renderBufferImmediate(object:Object3D, program:Dynamic, material:Material):Void;
-    public function renderBufferDirect(camera:Camera, lights:Array<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):Void;
-    public function renderBuffer(camera:Camera, lights:Array<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):Void;
-    public function renderImmediateObject(camera:Camera, lights:Array<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):Void;
-    public function render(scene:Scene, camera:Camera, ?renderTarget:WebGLRenderTarget, ?forceClear:Bool):Void;
+    public function renderBufferImmediate(object:Object3D, program:*, material:Material):void;
+    public function renderBufferDirect(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void;
+    public function renderBuffer(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void;
+    public function renderImmediateObject(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void;
+    public function render(scene:Scene, camera:Camera, renderTarget:WebGLRenderTarget, forceClear:Bool):void;
 
-	public function renderPlugins(plugins:Array<Dynamic>, scene:Scene, camera:Camera):Void;
-	public function initWebGLObjects(scene:Scene):Void;
-	public function initMaterial(material:Material, lights:Array<Light>, fog:Fog, object:Object3D):Void;
-	public function setFaceCulling(cullFace:Dynamic, frontFace:String):Void;
-	public function setMaterialFaces(material:Material):Void;
-	public function setDepthTest(depthTest:Bool):Void;
+	public function renderPlugins(plugins:Array<*>, scene:Scene, camera:Camera):void;
+	public function initWebGLObjects(scene:Scene):void;
+	public function initMaterial(material:Material, lights:Vector.<Light>, fog:Fog, object:Object3D):void;
+	public function setFaceCulling(cullFace:*, frontFace:String):void;
+	public function setMaterialFaces(material:Material):void;
+	public function setDepthTest(depthTest:Bool):void;
 	
-	public function setDepthWrite(depthWrite:Bool):Void;
-	public function setBlending(blending:Int, blendEquation:Int, blendSrc:Int, blendDst:Int):Void;
-	public function setTexture(texture:Texture, slot:Int):Void;
-	public function setRenderTarget(renderTarget:WebGLRenderTarget):Void;
+	public function setDepthWrite(depthWrite:Bool):void;
+	public function setBlending(blending:int, blendEquation:int, blendSrc:int, blendDst:int):void;
+	public function setTexture(texture:Texture, slot:int):void;
+	public function setRenderTarget(renderTarget:WebGLRenderTarget):void;
 	
+}
+
 }

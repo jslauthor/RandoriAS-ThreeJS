@@ -1,18 +1,22 @@
-package com.mrdoob.three.renderers.rederables;
+package com.mrdoob.three.renderers.rederables
+{
 
-@:native("THREE.RenderableParticle")
-extern class RenderableParticle 
+
+[JavaScript(export="false", name="THREE.RenderableParticle")]
+public class RenderableParticle
 {
 	
 	public var object:Object3D;	
 	
-	public var x:Float;
-	public var y:Float;
-	public var z:Float;
+	public var x:Number;
+	public var y:Number;
+	public var z:Number;
 
-	public var rotation:Dynamic; // TODO
+	public var rotation:*; // TODO
 	public var scale:Vector2;
 
 	public function new():Void;	
+
+}
 
 }

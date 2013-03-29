@@ -1,52 +1,56 @@
-package com.mrdoob.three.lights;
+package com.mrdoob.three.lights
+{
 
-@:native("THREE.DirectionalLight")
-extern class DirectionalLight extends Light
+
+[JavaScript(export="false", name="THREE.DirectionalLight")]
+public class DirectionalLight extends Light
 {
 	
 	public var position:Vector3;
 	public var target:Object3D;
 
-	public var intensity:Float;
+	public var intensity:Number;
 
 	public var castShadow:Bool;
 	public var onlyShadow:Bool;
 
-	public var shadowCameraNear:Float;
-	public var shadowCameraFar:Float;
+	public var shadowCameraNear:Number;
+	public var shadowCameraFar:Number;
 
-	public var shadowCameraLeft:Float;
-	public var shadowCameraRight:Float;
-	public var shadowCameraTop:Float;
-	public var shadowCameraBottom :Float;
+	public var shadowCameraLeft:Number;
+	public var shadowCameraRight:Number;
+	public var shadowCameraTop:Number;
+	public var shadowCameraBottom :Number;
 
 	public var shadowCameraVisible:Bool;
 
-	public var shadowBias:Float;
-	public var shadowDarkness:Float;
+	public var shadowBias:Number;
+	public var shadowDarkness:Number;
 
-	public var shadowMapWidth:Float;
-	public var shadowMapHeight:Float;
+	public var shadowMapWidth:Number;
+	public var shadowMapHeight:Number;
 
 	public var shadowCascade:Bool;
 
 	public var shadowCascadeOffset:Vector3;
-	public var shadowCascadeCount:Float
+	public var shadowCascadeCount:Number
 
-	public var shadowCascadeBias:Array<Float>;
-	public var shadowCascadeWidth:Array<Float>;
-	public var shadowCascadeHeight:Array<Float>;
+	public var shadowCascadeBias:Vector.<Number>;
+	public var shadowCascadeWidth:Vector.<Number>;
+	public var shadowCascadeHeight:Vector.<Number>;
 
-	public var shadowCascadeNearZ:Array<Float>;
-	public var shadowCascadeFarZ:Array<Float>;
+	public var shadowCascadeNearZ:Vector.<Number>;
+	public var shadowCascadeFarZ:Vector.<Number>;
 
-	public var shadowCascadeArray:Array<Dynamic>; // TODO: Not sure what type this should be
+	public var shadowCascadeArray:Array<*>; // TODO: Not sure what type this should be
 
-	public var shadowMap:Float; // TODO: Which type is this?
-	public var shadowMapSize:Float;
+	public var shadowMap:Number; // TODO: Which type is this
+	public var shadowMapSize:Number;
 	public var shadowCamera:Camera;
 	public var shadowMatrix:Matrix4
 	
-	public function new(hex:Float, ?intensity:Float);
+	public function new(hex:Number, intensity:Number);
+
+}
 
 }

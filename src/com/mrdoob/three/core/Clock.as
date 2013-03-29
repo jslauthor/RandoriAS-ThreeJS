@@ -1,7 +1,9 @@
-package com.mrdoob.three.core;
+package com.mrdoob.three.core
+{
 
-@:native("THREE.Clock")
-extern class Clock 
+
+[JavaScript(export="false", name="THREE.Clock")]
+public class Clock
 {
 	
 	public var startTime:Float;
@@ -10,10 +12,12 @@ extern class Clock
 
 	public var running:Bool;
 	
-	public function new (?autoStart:Bool):Void {}		
-	public function start():Void;
-	public function stop():Void;
-	public function getElapsedTime():Void;
-	public function getDelta():Void;
+	public function new (autoStart:Bool):void {}
+	public function start():void;
+	public function stop():void;
+	public function getElapsedTime():void;
+	public function getDelta():void;
+
+}
 
 }

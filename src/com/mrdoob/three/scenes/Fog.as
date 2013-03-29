@@ -1,14 +1,14 @@
 package com.mrdooob.three.scenes;
 
-@:native("THREE.Fog")
-extern class Fog 
+[JavaScript(export="false", name="THREE.Fog")]
+public class Fog
 {
 	
 	public var name:String;
  	public var color:Color;
-    public var near:Float; // 1
-    public var far:Float; // 1000
-    public function new(hex:Int, ?near:Float, ?far:Float):Void;
+    public var near:Number; // 1
+    public var far:Number; // 1000
+    public function new(hex:int, near:Number, far:Number):void;
     public function clone():Fog;		
 
 }

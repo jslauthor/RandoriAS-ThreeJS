@@ -1,13 +1,17 @@
-package com.mrdoob.three.renderers.webglshaders;
+package com.mrdoob.three.renderers.webglshaders
+{
 
-@:native("THREE.UniformsLib")
-extern class UniformsLib 
+
+[JavaScript(export="false", name="THREE.UniformsLib")]
+public class UniformsLib
 {
 	
-	public static var common:Dynamic;
-    public static var fog:Dynamic;
-    public static var lights:Dynamic;
-    public static var particle:Dynamic;
-    public static var shadowmap:Dynamic;	
+	public static var common:*;
+    public static var fog:*;
+    public static var lights:*;
+    public static var particle:*;
+    public static var shadowmap:*;
+
+}
 
 }

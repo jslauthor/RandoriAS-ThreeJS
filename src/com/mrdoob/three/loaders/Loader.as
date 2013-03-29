@@ -1,17 +1,21 @@
-package com.mrdoob.three.loaders;
+package com.mrdoob.three.loaders
+{
+
 
 import js.html;
 
-@:native("THREE.Loader")
-extern class Loader 
+[JavaScript(export="false", name="THREE.Loader")]
+public class Loader
 {
 	public var showStatus:Bool;
 	public var statusDomElement:Element;
 
-	public var onLoadStart:Void -> Void;
-	public var onLoadProgress:Void -> Void;
-	public var onLoadComplete:Void -> Void;
+	public var onLoadStart:Function;
+	public var onLoadProgress:Function;
+	public var onLoadComplete:Function;
 	
-	public function new (showStatus:bool):Void;		
+	public function new (showStatus:bool):void;
+
+}
 
 }

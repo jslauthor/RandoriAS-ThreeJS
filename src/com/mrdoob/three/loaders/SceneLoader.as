@@ -1,17 +1,21 @@
-package com.mrdoob.three.loaders;
-
-@:native("THREE.SceneLoader")
-extern class SceneLoader 
+package com.mrdoob.three.loaders
 {
-	
-	public var onLoadStart:Void -> Void;
-	public var onLoadProgress:Void -> Void;
-	public var onLoadComplete:Void -> Void;
 
-	public var callbackSync:Void -> Void;
-	public var callbackProgress:Void -> Void;
-	
-	public function new():Void;
-	public function load(url:String, callBackFinished:Scene -> Void):Void;
+[JavaScript(export="false", name="THREE.SceneLoader")]
+public class SceneLoader
+{
+
+    public var onLoadStart:Function;
+    public var onLoadProgress:Function;
+    public var onLoadComplete:Function;
+
+    public var callbackSync:Function;
+    public var callbackProgress:Function;
+
+    public function new():void;
+    public function load(url:String, callBackFinished:Function):void;
 
 }
+
+}
+

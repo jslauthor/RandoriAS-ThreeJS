@@ -1,10 +1,14 @@
-package com.mrdoob.three.loaders;
+package com.mrdoob.three.loaders
+{
 
-@:native("THREE.ImageLoader")
-extern class ImageLoader extends EventDispatcher
+
+[JavaScript(export="false", name="THREE.ImageLoader")]
+public class ImageLoader extends EventDispatcher
 {
 	
-	public function new():Void;
-	public function load(url:String):Void;
+	public function new():void;
+	public function load(url:String):void;
+
+}
 
 }

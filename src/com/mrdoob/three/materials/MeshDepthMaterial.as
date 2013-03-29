@@ -1,13 +1,17 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.MeshDepthMaterial")
-extern class MeshDepthMaterial extends Material
+
+[JavaScript(export="false", name="THREE.MeshDepthMaterial")]
+public class MeshDepthMaterial extends Material
 {
 	
 	this.wireframe:Bool;
-	this.wireframeLinewidth:Float;
+	this.wireframeLinewidth:Number;
 	
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():MeshDepthMaterial;
+
+}
 
 }

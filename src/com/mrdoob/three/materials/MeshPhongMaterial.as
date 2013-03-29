@@ -1,7 +1,9 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.MeshPhongMaterial")
-extern class MeshPhongMaterial extends Material 
+
+[JavaScript(export="false", name="THREE.MeshPhongMaterial")]
+public class MeshPhongMaterial extends Material
 {
 	
 	public var color:Color; // diffuse
@@ -28,27 +30,29 @@ extern class MeshPhongMaterial extends Material
 
 	public var specularMap:Texture;
 
-	public var envMap:Texture; // Supposed to be TextureCube? Can't find it in three.js
-	public var combine:Int;
+	public var envMap:Texture; // Supposed to be TextureCube Can't find it in three.js
+	public var combine:int;
 	public var reflectivity:Float;
 	public var refractionRatio:Float;
 
 	public var fog:Bool;
 
-	public var shading:Int;
+	public var shading:int;
 
 	public var wireframe:Bool;
 	public var wireframeLinewidth:Float;
 	public var wireframeLinecap:String;
 	public var wireframeLinejoin:String;
 
-	public var vertexColors:Int;
+	public var vertexColors:int;
 
 	public var skinning:Bool;
 	public var morphTargets:Bool;
 	public var morphNormals:Bool;
 	
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():MeshPhongMaterial;	
+
+}
 
 }

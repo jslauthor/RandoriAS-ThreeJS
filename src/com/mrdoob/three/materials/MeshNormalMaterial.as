@@ -1,15 +1,19 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.MeshNormalMaterial")
-extern class MeshNormalMaterial extends Material
+
+[JavaScript(export="false", name="THREE.MeshNormalMaterial")]
+public class MeshNormalMaterial extends Material
 {
 	
-	public var shading:Int;
+	public var shading:int;
 
 	public var wireframe:Bool;
-	public var wireframeLinewidth:Float
+	public var wireframeLinewidth:Number
 	
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():MeshNormalMaterial;
+
+}
 
 }

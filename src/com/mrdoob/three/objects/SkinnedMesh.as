@@ -1,10 +1,12 @@
-package com.mrdoob.three.objects;
+package com.mrdoob.three.objects
+{
+
 
 import com.mrdoob.three.core.Object3D;
 import com.mrdoob.three.materials.Material;
 
-@:native("THREE.SkinnedMesh")
-extern class SkinnedMesh extends Mesh
+[JavaScript(export="false", name="THREE.SkinnedMesh")]
+public class SkinnedMesh extends Mesh
 {
 	
 	public static var offsetMatrix:Matrix4;
@@ -12,18 +14,20 @@ extern class SkinnedMesh extends Mesh
 	public var useVertexTexture:Bool;
 	public var identityMatrix:Matrix4;
 
-	public var bones:Array<Bone>;
-	public var boneMatrices:Float32Array;
+	public var bones:Vector.<Bone>;
+	public var boneMatrices:Number32Array;
 	
-	public var boneTextureWidth:Float;
-	public var boneTextureHeight:Float;
+	public var boneTextureWidth:Number;
+	public var boneTextureHeight:Number;
 	public var boneTexture:DataTexture;
 	
-	public function new(geometry:Geometry, ?material:Material, ?useVertexTexture:Bool):Void;	
+	public function new(geometry:Geometry, material:Material, useVertexTexture:Bool):void;
 	public function addBone(bone:Bone):Bone;
-	public function updateMatrixWorld(force:Bool):Void;
-	public function pose():Void;
+	public function updateMatrixWorld(force:Bool):void;
+	public function pose():void;
 	
-	override public function clone(?object:SkinnedMesh):SkinnedMesh;
+	override public function clone(object:SkinnedMesh):SkinnedMesh;
+
+}
 
 }

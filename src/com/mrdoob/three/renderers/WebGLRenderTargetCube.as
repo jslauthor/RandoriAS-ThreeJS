@@ -1,11 +1,15 @@
-package com.mrdoob.three.renderers;
+package com.mrdoob.three.renderers
+{
 
-@:native("THREE.WebGLRenderTargetCube")
-extern class WebGLRenderTargetCube extends WebGLRenderTarget
+
+[JavaScript(export="false", name="THREE.WebGLRenderTargetCube")]
+public class WebGLRenderTargetCube extends WebGLRenderTarget
 {
 	
-	public var activeCubeFace:Int;
+	public var activeCubeFace:int;
 	
-	public function new(width:Float, height:Float, ?options:Dynamic):Void;
+	public function new(width:Number, height:Number, options:*):void;
+
+}
 
 }

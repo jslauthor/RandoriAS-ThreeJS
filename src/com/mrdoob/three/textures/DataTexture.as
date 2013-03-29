@@ -1,12 +1,12 @@
 package com.mrdooob.three.textures;
 
-@:native("THREE.DataTexture")
-extern class DataTexture extends Texture
+[JavaScript(export="false", name="THREE.DataTexture")]
+public class DataTexture extends Texture
 {
 	
-	public var image:{data:<Dynamic>, width:Float, height:Float};	
+	public var image:{data:<*>, width:Number, height:Number};
 
-	public function new(data:<Dynamic>, width:Float, height:Float, ?format:Int, ?type:Int, ?mapping:IMapping, ?wrapS:Int, ?wrapT:Int, ?magFilter:Int, ?minFilter:Int, ?anisotropy:Float):Void;
+	public function new(data:<*>, width:Number, height:Number, format:int, type:int, mapping:IMapping, wrapS:int, wrapT:int, magFilter:int, minFilter:int, anisotropy:Number):void;
     public function clone():CompressedTexture;	
 
 }

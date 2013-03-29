@@ -1,7 +1,9 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.MeshLambertMaterial")
-extern class MeshLambertMaterial extends Material
+
+[JavaScript(export="false", name="THREE.MeshLambertMaterial")]
+public class MeshLambertMaterial extends Material
 {
 
 	public var color:Color; // diffuse
@@ -18,26 +20,28 @@ extern class MeshLambertMaterial extends Material
 	public var specularMap:Texture;
 
 	public var envMap:Texture;
-	public var combine:Int;
-	public var reflectivity:Float;
-	public var refractionRatio:Float;
+	public var combine:int;
+	public var reflectivity:Number;
+	public var refractionRatio:Number;
 
 	public var fog:Bool;
 
-	public var shading:Int;
+	public var shading:int;
 
 	public var wireframe:Bool;
-	public var wireframeLinewidth:Float;
+	public var wireframeLinewidth:Number;
 	public var wireframeLinecap:String;
 	public var wireframeLinejoin:String;
 
-	public var vertexColors:Int;
+	public var vertexColors:int;
 
 	public var skinning:Bool;
 	public var morphTargets:Bool;
 	public var morphNormals:Bool;
 			
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():MeshLambertMaterial;
+
+}
 
 }

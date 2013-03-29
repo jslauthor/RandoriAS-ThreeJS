@@ -1,10 +1,14 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.SpriteMaterial")
-extern class SpriteMaterial extends Material
+
+[JavaScript(export="false", name="THREE.SpriteMaterial")]
+public class SpriteMaterial extends Material
 {
 	
-	public function new(?parameters:Dynamic):Void;
+	public function new(parameters:*):void;
 	public function clone():ShaderMaterial;		
+
+}
 
 }

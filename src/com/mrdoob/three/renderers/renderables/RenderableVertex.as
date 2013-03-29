@@ -1,13 +1,17 @@
-package com.mrdoob.three.renderers.rederables;
+package com.mrdoob.three.renderers.rederables
+{
 
-@:native("THREE.RenderableVertex")
-extern class RenderableVertex 
+
+[JavaScript(export="false", name="THREE.RenderableVertex")]
+public class RenderableVertex
 {
 	
 	public var positionWorld:Vector3;
 	public var positionScreen:Vector4;
 	
-	public function new():Void;	
-	public function clone(vertex:RenderableVertex):Void;	
+	public function new():void;
+	public function clone(vertex:RenderableVertex):void;
+
+}
 
 }

@@ -1,14 +1,18 @@
-package com.mrdoob.three.renderers.rederables;
+package com.mrdoob.three.renderers.rederables
+{
 
-@:native("THREE.RenderableLine")
-extern class RenderableLine 
+
+[JavaScript(export="false", name="THREE.RenderableLine")]
+public class RenderableLine
 {
 	
 	public var v1:RenderableVertex;
 	public var v2:RenderableVertex;
 	public var material:Material
-	public var z:Float;
+	public var z:Number;
 
-	public function new():Void;
+	public function new():void;
+
+}
 
 }

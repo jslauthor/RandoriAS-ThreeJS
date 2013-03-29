@@ -1,22 +1,26 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.LineDashedMaterial")
-extern class LineDashedMaterial extends Material
+
+[JavaScript(export="false", name="THREE.LineDashedMaterial")]
+public class LineDashedMaterial extends Material
 {
 	
 	public var color:Color;
 
-	public var linewidth:Float;
+	public var linewidth:Number;
 
-	public var scale:Float;
-	public var dashSize:Float;
-	public var gapSize:Float;
+	public var scale:Number;
+	public var dashSize:Number;
+	public var gapSize:Number;
 
 	public var vertexColors:Bool
 
 	public var fog:Bool;
 	
-	public function new(?parameters:Dynamic):Void;		
+	public function new(parameters:*):void;
 	public function clone():LineDashedMaterial;
+
+}
 
 }

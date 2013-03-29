@@ -1,10 +1,14 @@
-package com.mrdoob.three.renderers.webglshaders;
+package com.mrdoob.three.renderers.webglshaders
+{
 
-@:native("THREE.UniformsUtils")
-extern class UniformsUtils 
+
+[JavaScript(export="false", name="THREE.UniformsUtils")]
+public class UniformsUtils
 {
 	
-	public static function merge(a:Array<UniformsUtils>):Dynamic ;
-    public static function clone(a:Dynamic):Dynamic;
+	public static function merge(a:Vector.<UniformsUtils>):* ;
+    public static function clone(a:*):*;
+
+}
 
 }

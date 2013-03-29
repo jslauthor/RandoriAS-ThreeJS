@@ -1,22 +1,26 @@
-package com.mrdoob.three.math;
+package com.mrdoob.three.math
+{
 
-@:native("THREE.Math")
-extern class Math 
+
+[JavaScript(export="false", name="THREE.Math")]
+public class Math
 {
 	
-	public static function clamp(x:Float, a:Float, b:Float):Float;
-	public static function clampBottom(x:Float, a:Float):Float;
-	public static function mapLinear(x:Float, a1:Float, a2:Float, b1:Float, b2:Float):Float;
-	public static function random16():Float;
-	public static function randInt(low:Int, high:Int):Int;
-	public static function randFloat(low:Float, high:Float):Float;
-	public static function randFloatSpread(range:Float):Float;
-	public static function sign(x:Float):Float;
+	public static function clamp(x:Number, a:Number, b:Number):Number;
+	public static function clampBottom(x:Number, a:Number):Number;
+	public static function mapLinear(x:Number, a1:Number, a2:Number, b1:Number, b2:Number):Number;
+	public static function random16():Number;
+	public static function randint(low:int, high:int):int;
+	public static function randNumber(low:Number, high:Number):Number;
+	public static function randNumberSpread(range:Number):Number;
+	public static function sign(x:Number):Number;
 	
-	public static function smoothstep(x:Float, min:Float, max:Float):Float;
-	public static function smootherstep(min:Float, max:Float):Float;
-	public static function degToRad():Float -> Float;
-	public static function radToDeg():Float -> Float;
+	public static function smoothstep(x:Number, min:Number, max:Number):Number;
+	public static function smootherstep(min:Number, max:Number):Number;
+	public static function degToRad():Function;
+	public static function radToDeg():Function;
 	
 	
+}
+
 }

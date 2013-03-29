@@ -1,7 +1,9 @@
-package com.mrdoob.three.renderers.rederables;
+package com.mrdoob.three.renderers.rederables
+{
 
-@:native("THREE.RenderableFace3")
-extern class RenderableFace3 
+
+[JavaScript(export="false", name="THREE.RenderableFace3")]
+public class RenderableFace3
 {
 	
 	public var v1:RenderableVertex;
@@ -13,15 +15,17 @@ extern class RenderableFace3
 	public var normalModel:Vector3;
 	public var normalModelView:Vector3;
 
-	public var vertexNormalsLength:Int;
-	public var vertexNormalsModel:Array<Vector3>;
-	public var vertexNormalsModelView:Array<Vector3>;
+	public var vertexNormalsLength:int;
+	public var vertexNormalsModel:Vector.<Vector3>;
+	public var vertexNormalsModelView:Vector.<Vector3>;
 
 	public var color:Color
 	public var material:Material
-	public var uvs:Array<Array<Dynamic>>;
+	public var uvs:Array<Array<*>>;
 
-	public var z:Float;
-	public function new():Void;
+	public var z:Number;
+	public function new():void;
+
+}
 
 }

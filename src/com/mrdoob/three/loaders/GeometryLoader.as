@@ -1,11 +1,15 @@
-package com.mrdoob.three.loaders;
+package com.mrdoob.three.loaders
+{
 
-@:native("THREE.GeometryLoader")
-extern class GeometryLoader extends Loader
+
+[JavaScript(export="false", name="THREE.GeometryLoader")]
+public class GeometryLoader extends Loader
 {
 	
-	public function new():Void;
-	public function load(url:String):Void;
-	public function parse(data:Dynamic, ?monitor:LoadingMonitor):Void; // TODO: What is data supposed to be?
+	public function new():void;
+	public function load(url:String):void;
+	public function parse(data:*, monitor:LoadingMonitor):void; // TODO: What is data supposed to be
+
+}
 
 }

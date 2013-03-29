@@ -1,17 +1,20 @@
-package com.mrdoob.three.cameras;
+package com.mrdoob.three.cameras
+{
 
-@:native("THREE.OrthographicCamera")
-extern class OrthographicCamera extends Camera 
+[JavaScript(export="false", name="THREE.OrthographicCamera")]
+public class OrthographicCamera extends Camera
 {
 	
-	public var left:Float;
-	public var right:Float;
-	public var top:Float;
-	public var bottom:Float;
-	public var near:Float;
-	public var far:Float;
+	public var left:Number;
+	public var right:Number;
+	public var top:Number;
+	public var bottom:Number;
+	public var near:Number;
+	public var far:Number;
 	
-	public function new():Void;		
-	public function updateProjectionMatrix():Void;
+	public function OrthographicCamera():void {}
+	public function updateProjectionMatrix():void;
+
+}
 
 }

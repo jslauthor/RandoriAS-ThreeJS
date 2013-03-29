@@ -1,9 +1,13 @@
-package com.mrdoob.three.lights;
+package com.mrdoob.three.lights
+{
 
-@:native("THREE.HemisphereLight")
-extern class HemisphereLight extends Light 
+
+[JavaScript(export="false", name="THREE.HemisphereLight")]
+public class HemisphereLight extends Light
 {
 	
-	public function new(skyColorHex:Float, groundColorHex:Float, ?intensity:Float);
+	public function new(skyColorHex:Number, groundColorHex:Number, intensity:Number);
+
+}
 
 }

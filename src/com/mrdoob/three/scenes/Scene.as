@@ -2,8 +2,8 @@ package com.mrdooob.three.scenes;
 
 import com.mrdoob.three.core.Object3D;
 
-@:native("THREE.Scene")
-extern class Scene extends Object3D
+[JavaScript(export="false", name="THREE.Scene")]
+public class Scene extends Object3D
 {
 	
 	public var fog:Fog;

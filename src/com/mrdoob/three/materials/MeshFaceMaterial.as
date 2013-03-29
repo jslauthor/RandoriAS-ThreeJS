@@ -1,10 +1,14 @@
-package com.mrdoob.three.materials;
+package com.mrdoob.three.materials
+{
 
-@:native("THREE.MeshFaceMaterial")
-extern class MeshFaceMaterial extends Material
+
+[JavaScript(export="false", name="THREE.MeshFaceMaterial")]
+public class MeshFaceMaterial extends Material
 {
 	
-	public function new(?materials:Array<Material>):Void;
+	public function new(materials:Vector.<Material>):void;
 	public function clone():MeshFaceMaterial;
+
+}
 
 }

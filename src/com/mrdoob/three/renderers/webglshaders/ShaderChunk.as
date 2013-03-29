@@ -1,7 +1,9 @@
-package com.mrdoob.three.renderers.webglshaders;
+package com.mrdoob.three.renderers.webglshaders
+{
 
-@:native("THREE.ShaderChunk")
-extern class ShaderChunk 
+
+[JavaScript(export="false", name="THREE.ShaderChunk")]
+public class ShaderChunk
 {
     // FOG
     public static var fog_pars_fragment:String;
@@ -80,4 +82,6 @@ extern class ShaderChunk
 	
 	// LINEAR SPACE
     public static var linear_to_gamma_fragment:String;
+}
+
 }

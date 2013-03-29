@@ -1,29 +1,33 @@
-package com.mrdoob.three.objects;
+package com.mrdoob.three.objects
+{
+
 
 import com.mrdoob.three.materials.Material;
 
-@:native("THREE.MorphAnimMesh")
-extern class MorphAnimMesh extends Mesh
+[JavaScript(export="false", name="THREE.MorphAnimMesh")]
+public class MorphAnimMesh extends Mesh
 {
 	
-	public var duration:Float;
+	public var duration:Number;
 	public var mirroredLoop:Bool;
-	public var time:Float;
+	public var time:Number;
 
-	public var lastKeyframe:Float
-	public var currentKeyframe:Float;
+	public var lastKeyframe:Number
+	public var currentKeyframe:Number;
 
-	public var direction:Float;
+	public var direction:Number;
 	public var directionBackwards:Bool;
 	
-	public function new(geometry:Geometry, ?material:Material):Void;
-	public function setFrameRange(start:Float, end:Float):Void;
-	public function setDirectionForward():Void;
-	public function setDirectionBackward():Void;
-	public function parseAnimations():Void;
-	public function setAnimationLabel(label:String, start:Float, end:Float):Void;
-	public function playAnimation(label:String, fps:Float):Void;
-	public function updateAnimation(delta:Float):Void;
-	override public function clone(?object:MorphAnimMesh):MorphAnimMesh;
+	public function new(geometry:Geometry, material:Material):void;
+	public function setFrameRange(start:Number, end:Number):void;
+	public function setDirectionForward():void;
+	public function setDirectionBackward():void;
+	public function parseAnimations():void;
+	public function setAnimationLabel(label:String, start:Number, end:Number):void;
+	public function playAnimation(label:String, fps:Number):void;
+	public function updateAnimation(delta:Number):void;
+	override public function clone(object:MorphAnimMesh):MorphAnimMesh;
+
+}
 
 }

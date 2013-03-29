@@ -1,13 +1,17 @@
-package com.mrdoob.three.core;
+package com.mrdoob.three.core
+{
 
-@:native("THREE.Projector")
-extern class Projector 
+
+[JavaScript(export="false", name="THREE.Projector")]
+public class Projector
 {
 	
-	public function new():Void;
+	public function new():void;
 	public function projectVector(vector:Vector3, camera:Camera):Vector3;
 	public function unprojectVector(vector:Vector3, camera:Camera):Vector3;
 	public function pickingRay(vector:Vector3, camera:Camera):Raycaster;
-	public function projectScene(scene:Scene, camera:Camera, sort:Bool):Dynamic;
+	public function projectScene(scene:Scene, camera:Camera, sort:Bool):*;
+
+}
 
 }

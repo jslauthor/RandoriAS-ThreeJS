@@ -1,17 +1,21 @@
-package com.mrdoob.three.cameras;
+package com.mrdoob.three.cameras
+{
 
-@:native("THREE.PerspectiveCamera")
+
+[JavaScript(export="false", name="THREE.PerspectiveCamera")]
 exern class PerspectiveCamera extends Camera  
 {
 	
-	public var fov:Float;
-	public var aspect:Float;
-	public var near:Float;
-	public var far:Float;
+	public var fov:Number;
+	public var aspect:Number;
+	public var near:Number;
+	public var far:Number;
 	
-	public function new():Void;
-	public function setLens(focalLength:Float, frameSize:Float):Void
-	public function setViewOffset(fullWidth:Float, fullHeight:Float, x:Float, y:Float, width:Float, height:Float):Void
-	public function updateProjectionMatrix():Void;
+	public function new():void;
+	public function setLens(focalLength:Number, frameSize:Number):void
+	public function setViewOffset(fullWidth:Number, fullHeight:Number, x:Number, y:Number, width:Number, height:Number):void
+	public function updateProjectionMatrix():void;
 	
+}
+
 }

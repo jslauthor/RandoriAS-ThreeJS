@@ -1,3 +1,7 @@
-package com.mrdoob.three.core;
+package com.mrdoob.three.core
+{
+
 
 interface IFace {}
+
+}

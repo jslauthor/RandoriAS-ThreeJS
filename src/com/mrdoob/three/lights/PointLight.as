@@ -1,13 +1,17 @@
-package com.mrdoob.three.lights;
+package com.mrdoob.three.lights
+{
 
-@:native("THREE.PointLight")
-extern class PointLight extends Light
+
+[JavaScript(export="false", name="THREE.PointLight")]
+public class PointLight extends Light
 {
 	
 	public var position:Vector3;
-	public var intensity:Float;
-	public var distance:Float;
+	public var intensity:Number;
+	public var distance:Number;
 	
-	public function new(hex:Float, ?intensity:Float, ?distance:Float):Void;
+	public function new(hex:Number, intensity:Number, distance:Number):void;
+
+}
 
 }

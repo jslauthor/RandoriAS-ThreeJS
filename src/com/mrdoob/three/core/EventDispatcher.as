@@ -1,14 +1,18 @@
-package com.mrdoob.three.core;
+package com.mrdoob.three.core
+{
 
-@:native("THREE.EventDispatcher")
-extern class EventDispatcher 
+
+[JavaScript(export="false", name="THREE.EventDispatcher")]
+public class EventDispatcher
 {
 	
-	public var listeners:Array<(?Dynamic -> Void)>;
+	public var listeners:Array<(Function)>;
 	
-	public function new():Void;
-	public function addEventListener(type:String, listener:(?Dynamic -> Void)):Void;
-	public function removeEventListener(type:String, listener:(?Dynamic -> Void)):Void;
+	public function new():void;
+	public function addEventListener(type:String, listener:(Function)):void;
+	public function removeEventListener(type:String, listener:(Function)):void;
 	public function dispatchEvent(event:String);
+
+}
 
 }

@@ -1,25 +1,29 @@
-package com.mrdoob.three.core;
+package com.mrdoob.three.core
+{
 
-@:native("THREE.Face3")
-extern class Face3 implements IFace 
+
+[JavaScript(export="false", name="THREE.Face3")]
+public class Face3 implements IFace
 {
 	
-	public var a:Float;
-	public var b:Float;
-	public var c:Float;
+	public var a:Number;
+	public var b:Number;
+	public var c:Number;
 
 	public var normal:Vector3;
-	public var vertexNormals:Array<Vector3>;
+	public var vertexNormals:Vector.<Vector3>;
 
 	public var color:Color;
-	public var vertexColors:Array<Color>;
+	public var vertexColors:Vector.<Color>;
 
-	public var vertexTangents:Array<Vector3>;
+	public var vertexTangents:Vector.<Vector3>;
 
-	public var materialIndex:Int;
+	public var materialIndex:int;
 
 	public var centroid:Vector3;
 	
-	public function new(?a:Float, ?b:Float, ?c:Float, ?normal:Vector3, ?color:Vector3, ?materialIndex:Vector3):Void {}
+	public function new(a:Number, b:Number, c:Number, normal:Vector3, color:Vector3, materialIndex:Vector3):void {}
 	public function clone():Face3;
+}
+
 }

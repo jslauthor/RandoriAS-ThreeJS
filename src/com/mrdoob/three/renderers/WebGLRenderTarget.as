@@ -1,24 +1,26 @@
-package com.mrdoob.three.renderers;
+package com.mrdoob.three.renderers
+{
+
 
 import com.mrdoob.three.core.EventDispatcher;
 
-@:native("THREE.WebGLRenderTarget")
-extern class WebGLRenderTarget extends EventDispatcher
+[JavaScript(export="false", name="THREE.WebGLRenderTarget")]
+public class WebGLRenderTarget extends EventDispatcher
 {
 	
-	public var wrapS:Int;
-	public var wrapT:Int;
+	public var wrapS:int;
+	public var wrapT:int;
 
-	public var magFilter:Int;
-	public var minFilter:Int;
+	public var magFilter:int;
+	public var minFilter:int;
 
-	public var anisotropy:Float;
+	public var anisotropy:Number;
 
 	public var offset:Vector2;
 	public var repeat:Vector2;
 
-	public var format:Int;
-	public var type:Int;
+	public var format:int;
+	public var type:int;
 
 	public var depthBuffer:Bool;
 	public var stencilBuffer:Bool;
@@ -27,8 +29,10 @@ extern class WebGLRenderTarget extends EventDispatcher
 
 	public var shareDepthFrom:WebGLRenderTarget;
 	
-	public function new(width:Float, height:Float, ?options:Dynamic):Void;
+	public function new(width:Number, height:Number, options:*):void;
 	public function clone():WebGLRenderTarget;
-	public function dispose():Void;
+	public function dispose():void;
+
+}
 
 }

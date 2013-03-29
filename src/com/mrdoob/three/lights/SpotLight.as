@@ -1,36 +1,40 @@
-package com.mrdoob.three.lights;
+package com.mrdoob.three.lights
+{
 
-@:native("THREE.SpotLight")
+
+[JavaScript(export="false", name="THREE.SpotLight")]
 class SpotLight extends Light
 	
 	public var position:Vector3;
 	public var target:Object3D;
 
-	public var intensity:Float;
-	public var distance:Float;
-	public var angle:Float;
-	public var exponent:Float;
+	public var intensity:Number;
+	public var distance:Number;
+	public var angle:Number;
+	public var exponent:Number;
 
 	public var castShadow:Bool
 	public var onlyShadow:Bool
 
-	public var shadowCameraNear:Float;
-	public var shadowCameraFar:Float;
-	public var shadowCameraFov:Float;
+	public var shadowCameraNear:Number;
+	public var shadowCameraFar:Number;
+	public var shadowCameraFov:Number;
 
 	public var shadowCameraVisible:Bool;
 
-	public var shadowBias:Float;
-	public var shadowDarkness:Float;
+	public var shadowBias:Number;
+	public var shadowDarkness:Number;
 
-	public var shadowMapWidth:Float;
-	public var shadowMapHeight:Float;
+	public var shadowMapWidth:Number;
+	public var shadowMapHeight:Number;
 
-	public var shadowMap:Float; // TODO: Which type is this?
-	public var shadowMapSize:Float;
+	public var shadowMap:Number; // TODO: Which type is this
+	public var shadowMapSize:Number;
 	public var shadowCamera:Camera;
 	public var shadowMatrix:Matrix;
 	
-	public function new (color:Float, ?intensity:Float, ?distance:Float, ?castShadow:Bool):Void;
+	public function new (color:Number, intensity:Number, distance:Number, castShadow:Bool):void;
+
+}
 
 }

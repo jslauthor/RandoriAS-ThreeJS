@@ -7,8 +7,8 @@ package com.mrdoob.three
     public class Three
     {
 
-        public static const Int32Array:Vector.<int>;
-        public static const Float32Array:Array.<Number>;
+        public static const int32Array:Vector.<int>;
+        public static const Number32Array:Array.<Number>;
         public static var Object3DIdCount:int = 0;
 
         public static const CullFaceNone:int = 0;
@@ -80,7 +80,7 @@ package com.mrdoob.three
         public static const UnsignedShortType:int = 1012;
         public static const intType:int = 1013;
         public static const UnsignedintType:int = 1014;
-        public static const FloatType:int = 1015;
+        public static const NumberType:int = 1015;
 
         //public static const UnsignedByteType:int = 1009;
         public static const UnsignedShort4444Type:int = 1016;

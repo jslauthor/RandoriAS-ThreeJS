@@ -1,14 +1,18 @@
-package com.mrdoob.three.renderers.rederables;
+package com.mrdoob.three.renderers.rederables
+{
+
 
 import com.mrdoob.three.core.Object3D;
 
-@:native("THREE.RenderableObject")
-extern class RenderableObject 
+[JavaScript(export="false", name="THREE.RenderableObject")]
+public class RenderableObject
 {
 	
 	public var object:Object3D;	
-	public var z:Float;
+	public var z:Number;
 
-	public function new():Void;	
+	public function new():void;
+
+}
 
 }

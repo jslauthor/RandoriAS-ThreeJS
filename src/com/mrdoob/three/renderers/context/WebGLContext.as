@@ -1,5 +1,9 @@
-package com.mrdoob.three.renderers.context;
+package com.mrdoob.three.renderers.context
+{
 
-@:native("THREE.WebGLContext")
-extern class WebGLContext {
+
+[JavaScript(export="false", name="THREE.WebGLContext")]
+public class WebGLContext {
+}
+
 }
