@@ -9,6 +9,6 @@ public class Scene extends Object3D
 	public var fog:Fog;
 	public var overrideMaterial:Material;
 
-	public var matrixAutoUpdate:Bool;	
+	public var matrixAutoUpdate:Boolean;
 
 }

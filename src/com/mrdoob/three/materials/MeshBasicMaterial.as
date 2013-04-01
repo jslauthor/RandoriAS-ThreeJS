@@ -19,19 +19,19 @@ public class MeshBasicMaterial extends Material
 	public var reflectivity:Number;
 	public var refractionRatio:Number;
 
-	public var fog:Bool;
+	public var fog:Boolean;
 
 	public var shading:int;
 
-	public var wireframe:Bool;
+	public var wireframe:Boolean;
 	public var wireframeLinewidth:Number;
 	public var wireframeLinecap:String;
 	public var wireframeLinejoin:String;
 
 	public var vertexColors:int;
 
-	public var skinning:Bool;
-	public var morphTargets:Bool;
+	public var skinning:Boolean;
+	public var morphTargets:Boolean;
 	
 	public function new(parameters:*);
 	public function clone():MeshBasicMaterial;

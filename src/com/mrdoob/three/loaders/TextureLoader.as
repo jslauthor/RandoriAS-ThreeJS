@@ -12,7 +12,7 @@ public class TextureLoader extends EventDispatcher
 	public var crossOrigin:ImageElement;
 	
 	public function TextureLoader():void {}
-	public function load(url:String):void;
+	public function load(url:String):void { }
 
 }
 

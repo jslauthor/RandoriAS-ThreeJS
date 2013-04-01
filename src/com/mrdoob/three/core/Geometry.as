@@ -1,7 +1,11 @@
 package com.mrdoob.three.core
 {
 
+import com.mrdoob.three.materials.Material;
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.math.Matrix4;
 import com.mrdoob.three.math.Vector3;
+import com.mrdoob.three.math.Vector4;
 import com.mrdoob.three.objects.Bone;
 
 [JavaScript(export="false", name="THREE.Geometry")]
@@ -18,8 +22,8 @@ public class Geometry
 
     public var faces:Vector.<Face4>;
 
-    public var faceUvs:Array<Vector.<UV>>;
-    public var faceVertexUvs:Array<Vector.<UV>>;
+    public var faceUvs:Vector.<Array>;
+    public var faceVertexUvs:Vector.<Array>;
 
     public var morphTargets:Array<{name:String, vertices:Vector.<Vector3>}>;
     public var morphColors:Array<{name:String, colors:Vector.<Color>}>;
@@ -33,34 +37,34 @@ public class Geometry
     public var boundingBox:{ x:Vector.<Number>, y:Vector.<Number>, z:Vector.<Number> };
     public var boundingSphere:{ radius:Number };
 
-    public var hasTangents:Bool;
-    /*	public var *:Bool; // the intermediate typed arrays will be deleted when set to false*/
+    public var hasTangents:Boolean;
+    /*	public var *:Boolean; // the intermediate typed arrays will be deleted when set to false*/
 
-    public var verticesNeedUpdate:Bool;
-    public var elementsNeedUpdate:Bool;
-    public var uvsNeedUpdate:Bool;
-    public var normalsNeedUpdate:Bool;
-    public var tangentsNeedUpdate:Bool;
-    public var colorsNeedUpdate:Bool;
-    public var lineDistancesNeedUpdate:Bool;
+    public var verticesNeedUpdate:Boolean;
+    public var elementsNeedUpdate:Boolean;
+    public var uvsNeedUpdate:Boolean;
+    public var normalsNeedUpdate:Boolean;
+    public var tangentsNeedUpdate:Boolean;
+    public var colorsNeedUpdate:Boolean;
+    public var lineDistancesNeedUpdate:Boolean;
 
-    public var buffersNeedUpdate:Bool;
+    public var buffersNeedUpdate:Boolean;
 
     public var bones:Vector.<Bone>;
 
     public function Geometry():void {}
-    public function applyMatrix(matrix:Matrix4):void;
-    public function computeCentroids():void;
-    public function computeFaceNormals():void;
-    public function computeVertexNormals():void;
-    public function computeMorphNormals():void;
-    public function computeTangents():void;
-    public function computeLineDistances():void;
-    public function computeBoundingBox():void;
-    public function computeBoundingSphere():void;
-    public function mergeVertices():void;
-    public function clone():void;
-    public function dispose():void;
+    public function applyMatrix(matrix:Matrix4):void { }
+    public function computeCentroids():void { }
+    public function computeFaceNormals():void { }
+    public function computeVertexNormals():void { }
+    public function computeMorphNormals():void { }
+    public function computeTangents():void { }
+    public function computeLineDistances():void { }
+    public function computeBoundingBox():void { }
+    public function computeBoundingSphere():void { }
+    public function mergeVertices():void { }
+    public function clone():void { }
+    public function dispose():void { }
 
 }
 

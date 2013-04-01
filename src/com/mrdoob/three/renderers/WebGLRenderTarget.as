@@ -22,16 +22,16 @@ public class WebGLRenderTarget extends EventDispatcher
 	public var format:int;
 	public var type:int;
 
-	public var depthBuffer:Bool;
-	public var stencilBuffer:Bool;
+	public var depthBuffer:Boolean;
+	public var stencilBuffer:Boolean;
 
-	public var generateMipmaps:Bool;
+	public var generateMipmaps:Boolean;
 
 	public var shareDepthFrom:WebGLRenderTarget;
 	
 	public function new(width:Number, height:Number, options:*):void;
 	public function clone():WebGLRenderTarget;
-	public function dispose():void;
+	public function dispose():void { }
 
 }
 

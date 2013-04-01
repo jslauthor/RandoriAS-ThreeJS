@@ -14,7 +14,7 @@ public class Bone extends Object3D
 	
 	public function Bone(belongsToSkin:SkinnedMesh):void {}
 
-	public function update(parentSkinMatrix:Matrix4, forceUpdate:Bool):void;
+	public function update(parentSkinMatrix:Matrix4, forceUpdate:Boolean):void { }
 
 }
 

@@ -12,9 +12,9 @@ public class LineBasicMaterial extends Material
 	public var linecap:String;
 	public var linejoin:String;
 
-	public var vertexColors:Bool;
+	public var vertexColors:Boolean;
 
-	public var fog:Bool;
+	public var fog:Boolean;
 	
 	public function new(parameters:*):void
 	public function clone():LineBasicMaterial;

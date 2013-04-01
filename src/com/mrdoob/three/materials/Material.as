@@ -15,7 +15,7 @@ public class Material extends EventDispatcher
 	public var side:int;
 
 	public var opacity:Number;
-	public var transparent:Bool;
+	public var transparent:Boolean;
 
 	public var blending:int;
 
@@ -23,20 +23,20 @@ public class Material extends EventDispatcher
 	public var blendDst:int;
 	public var blendEquation:int;
 
-	public var depthTest:Bool;
-	public var depthWrite:Bool;
+	public var depthTest:Boolean;
+	public var depthWrite:Boolean;
 
-	public var polygonOffset:Bool;
+	public var polygonOffset:Boolean;
 	public var polygonOffsetFactor:int
 	public var polygonOffsetUnits:int;
 
 	public var alphaTest:Number;
 
-	public var overdraw:Bool; // Boolean for fixing antialiasing gaps in CanvasRenderer
+	public var overdraw:Boolean; // Booleanean for fixing antialiasing gaps in CanvasRenderer
 
-	public var visible:Bool; 
+	public var visible:Boolean;
 
-	public var needsUpdate:Bool; 
+	public var needsUpdate:Boolean;
 	
 	public function new(parameters:*):void;
 

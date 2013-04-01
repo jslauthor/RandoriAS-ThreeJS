@@ -23,7 +23,7 @@ public class Quaternion
 	public function length():Quaternion;
 	public function normaline():Quaternion;
 	public function multiplyQuaternions(quaternion1:Quaternion, quaternion2:Quaternion):Quaternion;
-	public function equals(vector:Quaternion):Bool;
+	public function equals(vector:Quaternion):Boolean;
 	public function clone():Quaternion;	
 	
 	public static function slerp(quaternion1:Quaternion, quaternion2:Quaternion, quaternion3:Quaternion, theta:Number):Quaternion;

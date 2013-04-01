@@ -13,7 +13,7 @@ public class OrthographicCamera extends Camera
 	public var far:Number;
 	
 	public function OrthographicCamera():void {}
-	public function updateProjectionMatrix():void;
+	public function updateProjectionMatrix():void { }
 
 }
 

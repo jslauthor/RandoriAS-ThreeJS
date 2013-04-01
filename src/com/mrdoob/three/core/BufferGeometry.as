@@ -1,5 +1,6 @@
 package com.mrdoob.three.core
 {
+import com.mrdoob.three.math.Vector3;
 
 [JavaScript(export="false", name="THREE.BufferGeometry")]
 public class BufferGeometry
@@ -13,7 +14,7 @@ public class BufferGeometry
 	public var boundingBox:{min:Vector3, max:Vector3};
 	public var boundingSphere:{radius:Number};
 
-	public var hasTangents:Bool;
+	public var hasTangents:Boolean;
 
 	public var morphTargets = Array<{name:String, vertices:Vector.<Vector3>}>;
 	

@@ -10,13 +10,13 @@ public class Clock
 	public var oldTime:Float;
 	public var elapsedTime:Float;
 
-	public var running:Bool;
+	public var running:Boolean;
 	
-	public function Clock(autoStart:Bool):void {}
-	public function start():void;
-	public function stop():void;
-	public function getElapsedTime():void;
-	public function getDelta():void;
+	public function Clock(autoStart:Boolean):void {}
+	public function start():void { }
+	public function stop():void { }
+	public function getElapsedTime():void { }
+	public function getDelta():void { }
 
 }
 

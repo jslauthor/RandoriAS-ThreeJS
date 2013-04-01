@@ -11,11 +11,11 @@ public class ParticleBasicMaterial extends Material
 	public var map:Texture;
 
 	public var size:Number;
-	public var sizeAttenuation:Bool;
+	public var sizeAttenuation:Boolean;
 
-	public var vertexColors:Bool;
+	public var vertexColors:Boolean;
 
-	public var fog:Bool;
+	public var fog:Boolean;
 	
 	public function new(parameters:*):Void;
 	public function clone():ParticleBasicMaterial;	

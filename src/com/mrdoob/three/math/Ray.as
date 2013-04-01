@@ -16,12 +16,12 @@ public class Ray
 	public function recast():Vector3 -> Ray;
 	public function closestPointToPoint(point:Vector3, origin:Vector3):Vector3;
 	public function distanceToPoint():Vector3 -> Number;
-	public function isintersectionSphere(sphere:Sphere):Bool;
-	public function isintersectionPlane(plane:Plane):Bool;
+	public function isintersectionSphere(sphere:Sphere):Boolean;
+	public function isintersectionPlane(plane:Plane):Boolean;
 	public function distanceToPlane(plane:Plane):Number;
 	public function intersectPlane(plane:Plane, optionalTarget:Vector3):Vector3;
 	public function applyMatrix4(matrix:Matrix4):Ray;
-	public function equals(ray:Ray):Bool;
+	public function equals(ray:Ray):Boolean;
 	public function clone():Ray;
 
 }

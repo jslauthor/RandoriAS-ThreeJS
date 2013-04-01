@@ -18,7 +18,7 @@ public class Vector4
 	public function setY(y:Number):Vector4;
 	public function setZ(y:Number):Vector4;
 	public function setW(w:Number):Vector4;
-	public function setComponent(index:int, value:Number):void;
+	public function setComponent(index:int, value:Number):void { }
 	public function getComponent(index:int):Number;
 	public function copy(vector:Vector4):Vector4;
 	
@@ -50,7 +50,7 @@ public class Vector4
 	public function setLength(length:Number):Vector4;
 	public function lerp(vector:Vector4, alpha:Number):Vector4;
 
-	public function equals(vector:Vector4):Bool;
+	public function equals(vector:Vector4):Boolean;
 	public function toArray():Vector.<Number>;
 	public function clone():Vector4;
 

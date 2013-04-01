@@ -13,7 +13,7 @@ public class SceneLoader
     public var callbackProgress:Function;
 
     public function SceneLoader():void {}
-    public function load(url:String, callBackFinished:Function):void;
+    public function load(url:String, callBackFinished:Function):void { }
 
 }
 

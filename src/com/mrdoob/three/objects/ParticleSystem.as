@@ -11,10 +11,10 @@ public ParticleSystem extends Object3D
 	
 	public var geometry:Geometry;
 	public var material:Material;
-	public var sortParticles:Bool;
-	public var frustumCulled:Bool;
+	public var sortParticles:Boolean;
+	public var frustumCulled:Boolean;
 	
-	public function new(geometry:Geometry, material:Material):void;
+	public function new(geometry:Geometry, material:Material):void { }
 	override public function clone(object:ParticleSystem):ParticleSystem;
 	
 }

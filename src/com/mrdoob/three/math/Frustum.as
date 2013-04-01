@@ -13,9 +13,9 @@ public class Frustum
 	public function set(p1:Plane, p2:Plane, p3:Plane, p4:Plane, p5:Plane, p6:Plane):Frustum;
 	public function copy(frustum:Frustum):Frustum;
 	public function setFromMatrix(matrix:Matrix4):Frustum;
-	public function intersectsObject():Bool;
-	public function intersectSphere(sphere:Sphere):Bool;
-	public function containsPoint({x:Number, y:Number}):Bool;
+	public function intersectsObject():Boolean;
+	public function intersectSphere(sphere:Sphere):Boolean;
+	public function containsPoint({x:Number, y:Number}):Boolean;
 	public function clone():Frustum;
 
 }

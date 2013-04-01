@@ -5,7 +5,7 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="RandoriProject">
-    <option name="port" value="63857" />
+    <option name="port" value="53380" />
   </component>
 </project>
 

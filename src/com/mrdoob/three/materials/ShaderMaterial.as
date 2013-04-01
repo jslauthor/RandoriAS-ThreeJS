@@ -9,13 +9,13 @@ public class ShaderMaterial extends Material
 	public var color:Color;
 	public var map:Texture;
 
-	public var useScreenCoordinates :Bool;
-	public var depthTest:Bool;
-	public var sizeAttenuation:Bool;
-	public var scaleByViewport:Bool;
+	public var useScreenCoordinates :Boolean;
+	public var depthTest:Boolean;
+	public var sizeAttenuation:Boolean;
+	public var scaleByViewport:Boolean;
 	public var alignment:Vector2;
 
-	public var fog:Bool;
+	public var fog:Boolean;
 
 	public var uvOffset:Vector2;
 	public var uvScale:Vector2;

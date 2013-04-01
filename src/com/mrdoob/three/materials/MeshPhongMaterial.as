@@ -12,10 +12,10 @@ public class MeshPhongMaterial extends Material
 	public var specular:Color;
 	public var shininess:Float;
 
-	public var metal:Bool;
-	public var perPixel:Bool;
+	public var metal:Boolean;
+	public var perPixel:Boolean;
 
-	public var wrapAround :Bool;
+	public var wrapAround :Boolean;
 	public var wrapRGB:Vector3;
 
 	public var map:Texture;
@@ -35,20 +35,20 @@ public class MeshPhongMaterial extends Material
 	public var reflectivity:Float;
 	public var refractionRatio:Float;
 
-	public var fog:Bool;
+	public var fog:Boolean;
 
 	public var shading:int;
 
-	public var wireframe:Bool;
+	public var wireframe:Boolean;
 	public var wireframeLinewidth:Float;
 	public var wireframeLinecap:String;
 	public var wireframeLinejoin:String;
 
 	public var vertexColors:int;
 
-	public var skinning:Bool;
-	public var morphTargets:Bool;
-	public var morphNormals:Bool;
+	public var skinning:Boolean;
+	public var morphTargets:Boolean;
+	public var morphNormals:Boolean;
 	
 	public function new(parameters:*):void;
 	public function clone():MeshPhongMaterial;	

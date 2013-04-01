@@ -24,12 +24,12 @@ public class Plane
 	public function distanceToSphere(sphere:Sphere):Number;
 	public function projectPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Plane;
 	public function orthoPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Vector3;
-	public function isintersectionLine(line:Line):Bool;
-	public function intersectLine(line:Line, optionalTarget:Vector3):Bool;
+	public function isintersectionLine(line:Line):Boolean;
+	public function intersectLine(line:Line, optionalTarget:Vector3):Boolean;
 	public function coplanarPoint(optionalTarget:Vector3):Vector3;
 	public function applyMatrix4():Matrix3 -> Matrix3 -> Plane;
 	public function translate(offset:Vector3):Plane;
-	public function equals(plane:Plane):Bool;
+	public function equals(plane:Plane):Boolean;
 	public function close():Plane;
 	
 }

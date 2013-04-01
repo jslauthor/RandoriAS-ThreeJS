@@ -14,9 +14,9 @@ public class LineDashedMaterial extends Material
 	public var dashSize:Number;
 	public var gapSize:Number;
 
-	public var vertexColors:Bool
+	public var vertexColors:Boolean
 
-	public var fog:Bool;
+	public var fog:Boolean;
 	
 	public function new(parameters:*):void;
 	public function clone():LineDashedMaterial;

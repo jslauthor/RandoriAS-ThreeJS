@@ -8,7 +8,7 @@ public class MeshNormalMaterial extends Material
 	
 	public var shading:int;
 
-	public var wireframe:Bool;
+	public var wireframe:Boolean;
 	public var wireframeLinewidth:Number
 	
 	public function new(parameters:*):void;

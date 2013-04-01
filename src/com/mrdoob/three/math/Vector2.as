@@ -9,11 +9,11 @@ public class Vector2
 	public var x:Number;
 	public var y:Number;
 	
-	public function Vector2(x:Number, y:Number):void;
+	public function Vector2(x:Number, y:Number):void { }
 	public function set(x:Number, y:Number):Vector2;
 	public function setX(x:Number):Vector2;
 	public function setY(y:Number):Vector2;
-	public function setComponent(index:int, value:Number):void;
+	public function setComponent(index:int, value:Number):void { }
 	public function getComponent(index:int):Number;
 	public function copy(vector:Vector2):Vector2;
 	public function add(vector:Vector2):Vector2;
@@ -35,7 +35,7 @@ public class Vector2
 	public function distanceToSquared(vector:Vector2):Number;
 	public function setLength(length:Number):Vector2;
 	public function lerp(vector:Vector2, alpha:Number):Vector2;
-	public function equals(vector:Vector2):Bool;
+	public function equals(vector:Vector2):Boolean;
 	public function toArray():Vector.<Number>;
 	public function clone():Vector2;
 	

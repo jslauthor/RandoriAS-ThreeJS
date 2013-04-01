@@ -9,8 +9,8 @@ public class EventDispatcher
 	public var listeners:Array<(Function)>;
 	
 	public function EventDispatcher():void {}
-	public function addEventListener(type:String, listener:(Function)):void;
-	public function removeEventListener(type:String, listener:(Function)):void;
+	public function addEventListener(type:String, listener:(Function)):void { }
+	public function removeEventListener(type:String, listener:(Function)):void { }
 	public function dispatchEvent(event:String);
 
 }

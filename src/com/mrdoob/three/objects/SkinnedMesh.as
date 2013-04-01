@@ -11,7 +11,7 @@ public class SkinnedMesh extends Mesh
 	
 	public static var offsetMatrix:Matrix4;
 
-	public var useVertexTexture:Bool;
+	public var useVertexTexture:Boolean;
 	public var identityMatrix:Matrix4;
 
 	public var bones:Vector.<Bone>;
@@ -21,11 +21,11 @@ public class SkinnedMesh extends Mesh
 	public var boneTextureHeight:Number;
 	public var boneTexture:DataTexture;
 	
-	public function SkinnedMesh(geometry:Geometry, material:Material, useVertexTexture:Bool):void {}
+	public function SkinnedMesh(geometry:Geometry, material:Material, useVertexTexture:Boolean):void {}
 
 	public function addBone(bone:Bone):Bone;
-	public function updateMatrixWorld(force:Bool):void;
-	public function pose():void;
+	public function updateMatrixWorld(force:Boolean):void { }
+	public function pose():void { }
 	
 	override public function clone(object:SkinnedMesh):SkinnedMesh;
 

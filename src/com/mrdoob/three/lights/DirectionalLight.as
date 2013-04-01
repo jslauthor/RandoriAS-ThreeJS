@@ -11,8 +11,8 @@ public class DirectionalLight extends Light
 
 	public var intensity:Number;
 
-	public var castShadow:Bool;
-	public var onlyShadow:Bool;
+	public var castShadow:Boolean;
+	public var onlyShadow:Boolean;
 
 	public var shadowCameraNear:Number;
 	public var shadowCameraFar:Number;
@@ -22,7 +22,7 @@ public class DirectionalLight extends Light
 	public var shadowCameraTop:Number;
 	public var shadowCameraBottom :Number;
 
-	public var shadowCameraVisible:Bool;
+	public var shadowCameraVisible:Boolean;
 
 	public var shadowBias:Number;
 	public var shadowDarkness:Number;
@@ -30,7 +30,7 @@ public class DirectionalLight extends Light
 	public var shadowMapWidth:Number;
 	public var shadowMapHeight:Number;
 
-	public var shadowCascade:Bool;
+	public var shadowCascade:Boolean;
 
 	public var shadowCascadeOffset:Vector3;
 	public var shadowCascadeCount:Number

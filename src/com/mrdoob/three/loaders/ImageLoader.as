@@ -7,7 +7,7 @@ public class ImageLoader extends EventDispatcher
 {
 	
 	public function ImageLoader():void {}
-	public function load(url:String):void;
+	public function load(url:String):void { }
 
 }
 

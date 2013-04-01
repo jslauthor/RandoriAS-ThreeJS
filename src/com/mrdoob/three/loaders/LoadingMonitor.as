@@ -9,7 +9,7 @@ public class LoadingMonitor extends EventDispatcher
 {
 	
 	public function LoadingMonitor():void {}
-	public function add(loader:Loader):Void;
+	public function add(loader:Loader):void { }
 
 }
 

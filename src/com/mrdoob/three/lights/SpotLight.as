@@ -13,14 +13,14 @@ class SpotLight extends Light
 	public var angle:Number;
 	public var exponent:Number;
 
-	public var castShadow:Bool
-	public var onlyShadow:Bool
+	public var castShadow:Boolean
+	public var onlyShadow:Boolean
 
 	public var shadowCameraNear:Number;
 	public var shadowCameraFar:Number;
 	public var shadowCameraFov:Number;
 
-	public var shadowCameraVisible:Bool;
+	public var shadowCameraVisible:Boolean;
 
 	public var shadowBias:Number;
 	public var shadowDarkness:Number;
@@ -33,7 +33,7 @@ class SpotLight extends Light
 	public var shadowCamera:Camera;
 	public var shadowMatrix:Matrix;
 	
-	public function new (color:Number, intensity:Number, distance:Number, castShadow:Bool):void;
+	public function new (color:Number, intensity:Number, distance:Number, castShadow:Boolean):void { }
 
 }
 

@@ -16,7 +16,7 @@ public class Vector3
 	public function setX(x:Number):Vector3;
 	public function setY(y:Number):Vector3;
 	public function setZ(y:Number):Vector3;
-	public function setComponent(index:int, value:Number):void;
+	public function setComponent(index:int, value:Number):void { }
 	public function getComponent(index:int):Number;
 	public function copy(vector:Vector3):Vector3;
 	
@@ -64,7 +64,7 @@ public class Vector3
 	public function getScaleFromMatrix(matrix:Matrix3):Vector3;
 	public function getColumnFromMatrix(index:int, matrix:Matrix4):Vector3;
 	
-	public function equals(vector:Vector3):Bool;
+	public function equals(vector:Vector3):Boolean;
 	public function toArray():Vector.<Number>;
 	public function clone():Vector3;
 

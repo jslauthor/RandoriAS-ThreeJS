@@ -6,7 +6,7 @@ package com.mrdoob.three.materials
 public class MeshDepthMaterial extends Material
 {
 	
-	this.wireframe:Bool;
+	this.wireframe:Boolean;
 	this.wireframeLinewidth:Number;
 	
 	public function new(parameters:*):void;

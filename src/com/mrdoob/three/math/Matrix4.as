@@ -33,7 +33,7 @@ public class Matrix4
 	public function flattenToArrayOffset(flat:Number32Array, offset:int):Number32Array;
 	
 	public function setPosition(vector:Vector3):Matrix4;
-	public function getInverse(matrix:Matrix4, throwOnInvertible:Bool):Matrix4;
+	public function getInverse(matrix:Matrix4, throwOnInvertible:Boolean):Matrix4;
 
 	public function extractPosition(matrix:Matrix4):Matrix4;
 	public function extractRotation():Matrix4 -> Matrix4;
