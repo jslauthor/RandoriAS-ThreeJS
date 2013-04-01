@@ -50,8 +50,8 @@ public class MeshPhongMaterial extends Material
 	public var morphTargets:Boolean;
 	public var morphNormals:Boolean;
 	
-	public function new(parameters:*):void;
-	public function clone():MeshPhongMaterial;	
+	public function new(parameters:*):void { }
+	public function clone():MeshPhongMaterial { return null; }	
 
 }
 

@@ -20,8 +20,8 @@ public class ShaderMaterial extends Material
 	public var uvOffset:Vector2;
 	public var uvScale:Vector2;
 
-	public function new(parameters:*):void;
-	public function clone():ShaderMaterial;	
+	public function new(parameters:*):void { }
+	public function clone():ShaderMaterial { return null; }	
 
 }
 

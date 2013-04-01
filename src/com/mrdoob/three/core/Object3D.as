@@ -50,20 +50,20 @@ package com.mrdoob.three.core
         public function translateX(distance:Number):void { }
         public function translateY(distance:Number):void { }
         public function translateZ(distance:Number):void { }
-        public function localToWorld(vector:Vector3):Vector3;
-        public function worldToLocal(vector:Vector3):Vector3;
+        public function localToWorld(vector:Vector3):Vector3 { return null; }
+        public function worldToLocal(vector:Vector3):Vector3 { return null; }
         public function lookAt(vector:Vector3):void { }
         public function add(object:Object3D):void { }
         public function remove(object:Object3D):void { }
         public function traverse(call:Function):void { }
 
-        public function getChildByName(name:String, recursive:Boolean):Object3D;
+        public function getChildByName(name:String, recursive:Boolean):Object3D { return null; }
         public function getDescendants(array:Vector.<Object3D>):Vector.<Object3D>;
 
         public function updateMatrix():void { }
-        public function updateMatrixWorld(force:Boolean=false):void;
+        public function updateMatrixWorld(force:Boolean=false):void { }
 
-        public function clone(object:Object3D):Object3D;
+        public function clone(object:Object3D):Object3D { return null; }
 
     }
 

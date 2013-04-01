@@ -21,12 +21,12 @@ public class CanvasRenderer implements IRenderer
     public function supportsVertexTextures:void { }
 	public function setFaceCulling:void { }
     
-    public function new(parameters:*):Void;
+    public function new(parameters:*):void { }
     public function setSize(width:Number, height:Number):void { }
     public function setClearColor(color:Color, opacity:Number):void { }
     public function setClearColorHex(hex:int, opacity:Number):void { }
     
-    public function getMaxAnisotropy():Number;
+    public function getMaxAnisotropy():Number { return null; }
     public function clear():void { }
     public function render(scene:Scene, camera:Camera):void { }
     

@@ -34,7 +34,7 @@ public class MeshBasicMaterial extends Material
 	public var morphTargets:Boolean;
 	
 	public function new(parameters:*);
-	public function clone():MeshBasicMaterial;
+	public function clone():MeshBasicMaterial { return null; }
 }
 
 }

@@ -29,8 +29,8 @@ public class WebGLRenderTarget extends EventDispatcher
 
 	public var shareDepthFrom:WebGLRenderTarget;
 	
-	public function new(width:Number, height:Number, options:*):void;
-	public function clone():WebGLRenderTarget;
+	public function new(width:Number, height:Number, options:*):void { }
+	public function clone():WebGLRenderTarget { return null; }
 	public function dispose():void { }
 
 }

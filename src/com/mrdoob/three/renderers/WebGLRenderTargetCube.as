@@ -8,7 +8,7 @@ public class WebGLRenderTargetCube extends WebGLRenderTarget
 	
 	public var activeCubeFace:int;
 	
-	public function new(width:Number, height:Number, options:*):void;
+	public function new(width:Number, height:Number, options:*):void { }
 
 }
 

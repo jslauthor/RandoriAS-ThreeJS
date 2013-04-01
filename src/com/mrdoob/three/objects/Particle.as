@@ -13,7 +13,7 @@ public class Particle extends Object3D
 	
 	public function Particle(material:Material):void {}
 
-	override public function clone(object:Particle):Particle;
+	override public function clone(object:Particle):Particle { return null; }
 
 }
 

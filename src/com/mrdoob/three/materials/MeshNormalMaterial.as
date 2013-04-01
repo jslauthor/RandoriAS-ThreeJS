@@ -11,8 +11,8 @@ public class MeshNormalMaterial extends Material
 	public var wireframe:Boolean;
 	public var wireframeLinewidth:Number
 	
-	public function new(parameters:*):void;
-	public function clone():MeshNormalMaterial;
+	public function new(parameters:*):void { }
+	public function clone():MeshNormalMaterial { return null; }
 
 }
 

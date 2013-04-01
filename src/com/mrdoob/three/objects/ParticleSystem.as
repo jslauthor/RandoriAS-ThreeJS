@@ -15,7 +15,7 @@ public ParticleSystem extends Object3D
 	public var frustumCulled:Boolean;
 	
 	public function new(geometry:Geometry, material:Material):void { }
-	override public function clone(object:ParticleSystem):ParticleSystem;
+	override public function clone(object:ParticleSystem):ParticleSystem { return null; }
 	
 }
 

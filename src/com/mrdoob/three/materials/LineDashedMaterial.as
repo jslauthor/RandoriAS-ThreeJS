@@ -18,8 +18,8 @@ public class LineDashedMaterial extends Material
 
 	public var fog:Boolean;
 	
-	public function new(parameters:*):void;
-	public function clone():LineDashedMaterial;
+	public function new(parameters:*):void { }
+	public function clone():LineDashedMaterial { return null; }
 
 }
 

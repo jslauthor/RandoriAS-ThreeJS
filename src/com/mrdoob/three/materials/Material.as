@@ -38,7 +38,7 @@ public class Material extends EventDispatcher
 
 	public var needsUpdate:Boolean;
 	
-	public function new(parameters:*):void;
+	public function new(parameters:*):void { }
 
 }
 

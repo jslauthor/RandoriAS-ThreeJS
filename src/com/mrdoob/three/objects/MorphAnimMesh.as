@@ -27,7 +27,7 @@ public class MorphAnimMesh extends Mesh
 	public function setAnimationLabel(label:String, start:Number, end:Number):void { }
 	public function playAnimation(label:String, fps:Number):void { }
 	public function updateAnimation(delta:Number):void { }
-	override public function clone(object:MorphAnimMesh):MorphAnimMesh;
+	override public function clone(object:MorphAnimMesh):MorphAnimMesh { return null; }
 
 }
 

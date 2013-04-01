@@ -10,6 +10,6 @@ public class Fog
     public var far:Number; // 1000
     public function Fog(hex:int, near:Number, far:Number):void {}
 
-    public function clone():Fog;		
+    public function clone():Fog { return null; }		
 
 }

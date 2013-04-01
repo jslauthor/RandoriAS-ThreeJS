@@ -10,6 +10,6 @@ public class FogExp2
     
     public function FogExp2(hex:int, density:Number):void {}
 
-    public function clone():Fog;	
+    public function clone():Fog { return null; }	
 
 }

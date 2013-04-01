@@ -17,8 +17,8 @@ public class ParticleBasicMaterial extends Material
 
 	public var fog:Boolean;
 	
-	public function new(parameters:*):Void;
-	public function clone():ParticleBasicMaterial;	
+	public function new(parameters:*):void { }
+	public function clone():ParticleBasicMaterial { return null; }	
 	
 }
 

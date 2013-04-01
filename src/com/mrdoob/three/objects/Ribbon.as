@@ -14,7 +14,7 @@ public class Ribbon extends Object3D
 	
 	public function Ribbon(geometry:Geometry, material:Material):void {}
 
-	override public function clone(object:Ribbon):Ribbon;
+	override public function clone(object:Ribbon):Ribbon { return null; }
 
 }
 

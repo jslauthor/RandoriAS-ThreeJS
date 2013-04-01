@@ -17,7 +17,7 @@ public class Sprite extends Object3D
 	public function Sprite(material:Material):void {}
 
 	public var updateMatrix();
-	override public function clone(object:Sprite):Sprite;
+	override public function clone(object:Sprite):Sprite { return null; }
 
 }
 

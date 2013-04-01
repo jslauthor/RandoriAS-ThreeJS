@@ -10,19 +10,19 @@ public class Ray
 	
 	public function Ray(origin:Vector3, direction:Vector3):void {}
 
-	public function set(origin:Vector3, direction:Vector3):Ray;
-	public function copy(ray:Ray):Ray;
-	public function at(target:Vector3, optionalTarget:Vector3):Vector3;
+	public function set(origin:Vector3, direction:Vector3):Ray { return null; }
+	public function copy(ray:Ray):Ray { return null; }
+	public function at(target:Vector3, optionalTarget:Vector3):Vector3 { return null; }
 	public function recast():Vector3 -> Ray;
-	public function closestPointToPoint(point:Vector3, origin:Vector3):Vector3;
+	public function closestPointToPoint(point:Vector3, origin:Vector3):Vector3 { return null; }
 	public function distanceToPoint():Vector3 -> Number;
-	public function isintersectionSphere(sphere:Sphere):Boolean;
-	public function isintersectionPlane(plane:Plane):Boolean;
-	public function distanceToPlane(plane:Plane):Number;
-	public function intersectPlane(plane:Plane, optionalTarget:Vector3):Vector3;
-	public function applyMatrix4(matrix:Matrix4):Ray;
-	public function equals(ray:Ray):Boolean;
-	public function clone():Ray;
+	public function isintersectionSphere(sphere:Sphere):Boolean { return null; }
+	public function isintersectionPlane(plane:Plane):Boolean { return null; }
+	public function distanceToPlane(plane:Plane):Number { return null; }
+	public function intersectPlane(plane:Plane, optionalTarget:Vector3):Vector3 { return null; }
+	public function applyMatrix4(matrix:Matrix4):Ray { return null; }
+	public function equals(ray:Ray):Boolean { return null; }
+	public function clone():Ray { return null; }
 
 }
 

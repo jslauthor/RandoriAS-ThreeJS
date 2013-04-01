@@ -23,7 +23,7 @@ public class Face4 implements IFace
     public var centroid:Vector3;
 
     public function new(a:Number, b:Number, c:Number, d:Number, normal:Vector3, color:Vector3, materialIndex:Vector3):void {}
-    public function clone():Face4;
+    public function clone():Face4 { return null; }
 
 }
 

@@ -11,26 +11,26 @@ public class Plane
 	
 	public function Plane(normal:Vector3, constant:Number):void {}
 
-	public function clone():Plane;
+	public function clone():Plane { return null; }
 	
-	public function set(normal:Vector3, constant:Number):Plane;
-	public function setComponents(x:Number, y:Number, z:Number, w:Number):Plane;
-	public function setFromNormalAndCoplanarPoint(normal:Vector3, point{x:Number, y:Number}):Plane;
+	public function set(normal:Vector3, constant:Number):Plane { return null; }
+	public function setComponents(x:Number, y:Number, z:Number, w:Number):Plane { return null; }
+	public function setFromNormalAndCoplanarPoint(normal:Vector3, point{x:Number, y:Number}):Plane { return null; }
 	public function setFromCoplanarPoints():Vector3 -> Vector3 -> Vector3 -> Plane;
-	public function copy():Plane;
-	public function normalize():Plane;
-	public function negate():Plane;
-	public function distanceToPoint(point:{x:Number, y:Number}):Number;
-	public function distanceToSphere(sphere:Sphere):Number;
-	public function projectPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Plane;
-	public function orthoPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Vector3;
-	public function isintersectionLine(line:Line):Boolean;
-	public function intersectLine(line:Line, optionalTarget:Vector3):Boolean;
-	public function coplanarPoint(optionalTarget:Vector3):Vector3;
+	public function copy():Plane { return null; }
+	public function normalize():Plane { return null; }
+	public function negate():Plane { return null; }
+	public function distanceToPoint(point:{x:Number, y:Number}):Number { return null; }
+	public function distanceToSphere(sphere:Sphere):Number { return null; }
+	public function projectPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Plane { return null; }
+	public function orthoPoint(point:{x:Number, y:Number}, optionalTarget:Vector3):Vector3 { return null; }
+	public function isintersectionLine(line:Line):Boolean { return null; }
+	public function intersectLine(line:Line, optionalTarget:Vector3):Boolean { return null; }
+	public function coplanarPoint(optionalTarget:Vector3):Vector3 { return null; }
 	public function applyMatrix4():Matrix3 -> Matrix3 -> Plane;
-	public function translate(offset:Vector3):Plane;
-	public function equals(plane:Plane):Boolean;
-	public function close():Plane;
+	public function translate(offset:Vector3):Plane { return null; }
+	public function equals(plane:Plane):Boolean { return null; }
+	public function close():Plane { return null; }
 	
 }
 

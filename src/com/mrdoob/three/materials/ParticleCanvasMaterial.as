@@ -11,8 +11,8 @@ public class ParticleCanvasMaterial extends Material
 	public var color = new THREE.Color( 0xffffff );
 	public var program: Function -> void;
 	
-	public function new(parameters:*):void;
-	public function clone():ParticleCanvasMaterial;	
+	public function new(parameters:*):void { }
+	public function clone():ParticleCanvasMaterial { return null; }	
 
 }
 

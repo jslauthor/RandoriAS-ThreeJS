@@ -38,8 +38,8 @@ public class Texture extends EventDispatcher
     public var needsUpdate:Boolean;
     public var onUpdate:Function; // TODO: WTF
     
-    public function new(image:js.Dom.Image, mapping:IMapping, wrapS:int, wrapT:int, magFilter:int, minFilter:int, format:int, type:int, anisotropy:Number):void;
-    public function clone():Texture;	
+    public function new(image:js.Dom.Image, mapping:IMapping, wrapS:int, wrapT:int, magFilter:int, minFilter:int, format:int, type:int, anisotropy:Number):void { }
+    public function clone():Texture { return null; }	
     public function dispose():void { }
 
 }

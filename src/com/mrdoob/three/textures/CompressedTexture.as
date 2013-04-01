@@ -8,8 +8,8 @@ package com.mrdooob.three.textures
 		public var mipmaps:Array<*>;
 		public var generateMipmaps:Boolean; // false;
 		
-		public function new(mipmaps:Array<*>, width:Number, height:Number, format:int, type:int, mapping:IMapping, wrapS:int, wrapT:int, magFilter:int, minFilter:int, anisotropy:Number):void;
-	    public function clone():CompressedTexture;	
+		public function new(mipmaps:Array<*>, width:Number, height:Number, format:int, type:int, mapping:IMapping, wrapS:int, wrapT:int, magFilter:int, minFilter:int, anisotropy:Number):void { }
+	    public function clone():CompressedTexture { return null; }	
 
 	}
 }

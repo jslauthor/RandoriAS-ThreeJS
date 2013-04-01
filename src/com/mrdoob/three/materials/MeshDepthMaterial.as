@@ -9,8 +9,8 @@ public class MeshDepthMaterial extends Material
 	this.wireframe:Boolean;
 	this.wireframeLinewidth:Number;
 	
-	public function new(parameters:*):void;
-	public function clone():MeshDepthMaterial;
+	public function new(parameters:*):void { }
+	public function clone():MeshDepthMaterial { return null; }
 
 }
 

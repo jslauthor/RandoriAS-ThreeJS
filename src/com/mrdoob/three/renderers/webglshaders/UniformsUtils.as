@@ -6,8 +6,8 @@ package com.mrdoob.three.renderers.webglshaders
 public class UniformsUtils
 {
 	
-	public static function merge(a:Vector.<UniformsUtils>):* ;
-    public static function clone(a:*):*;
+	public static function merge(a:Vector.<UniformsUtils>):*  { return null; }
+    public static function clone(a:*):* { return null; }
 
 }
 

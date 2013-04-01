@@ -6,8 +6,8 @@ package com.mrdoob.three.materials
 public class SpriteMaterial extends Material
 {
 	
-	public function new(parameters:*):void;
-	public function clone():ShaderMaterial;		
+	public function new(parameters:*):void { }
+	public function clone():ShaderMaterial { return null; }		
 
 }
 
