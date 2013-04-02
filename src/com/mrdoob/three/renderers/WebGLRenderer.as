@@ -1,15 +1,34 @@
-package com.mrdoob.three.renderers.webglshaders
+package com.mrdoob.three.renderers
 {
 
 
-import js.Dom.HtmlDom;
+import com.mrdoob.three.cameras.Camera;
+import com.mrdoob.three.core.Geometry;
+import com.mrdoob.three.core.Object3D;
+import com.mrdoob.three.lights.Light;
+import com.mrdoob.three.materials.Material;
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.renderers.vo.Info;
+import com.mrdoob.three.scenes.Fog;
+import com.mrdoob.three.scenes.Scene;
+import com.mrdoob.three.textures.Texture;
+
+import randori.webkit.dom.Element;
 import com.mrdoob.three.renderers.context.WebGLContext;
 
 [JavaScript(export="false", name="THREE.WebGLRenderer")]
 public class WebGLRenderer implements IRenderer
 {
 
-	public var domElement:js.Dom.HtmlDom; // canvas
+	private var _domElement:Element; // canvas
+    public function get domElement():Element {
+        return _domElement;
+    }
+
+    public function set domElement(value:Element):void {
+        _domElement = value;
+    }
+
     public var context:WebGLContext; // initGL()
     
     public var devicePixelRatio:Number;
@@ -37,20 +56,16 @@ public class WebGLRenderer implements IRenderer
     public var maxMorphNormals:int;
     
     public var autoScaleCubemaps:Boolean; // true
-    public var renderPluginsPre:Array<*>; // TODO
-    public var renderPluginsPost:Array<*>; // TODO
+    public var renderPluginsPre:Array; // TODO
+    public var renderPluginsPost:Array; // TODO
     
-    public var info:
-    {
-        memory:{ programs:int, geometries:int, textures:int },
-        render:{ calls:int, vertices:int, faces:int, points:int }
-    };
+    public var info:Info;
     
-    public function new(parameters:*):void { }
+    public function WebGLRenderer(parameters:*):void { }
     public function getContext():WebGLContext { return null; }
     public function supportsVertexTextures():Boolean { return null; }
    	public function supportsNumberTextures():Boolean { return null; }
-   	public function supportsStandardDerivatives:Boolean;
+   	public function supportsStandardDerivatives():Boolean { return null }
     public function supportsCompressedTextureS3TC():Boolean { return null; }
     public function getMaxAnisotropy():Number { return null; }
     public function getPrecision():Number { return null; }
@@ -79,9 +94,9 @@ public class WebGLRenderer implements IRenderer
     public function renderBufferDirect(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void { }
     public function renderBuffer(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void { }
     public function renderImmediateObject(camera:Camera, lights:Vector.<Light>, fog:Fog, material:Material, geometry:Geometry, object:Object3D):void { }
-    public function render(scene:Scene, camera:Camera, renderTarget:WebGLRenderTarget, forceClear:Boolean):void { }
+    public function render(scene:Scene, camera:Camera, renderTarget:WebGLRenderTarget=null, forceClear:Boolean=false):void { }
 
-	public function renderPlugins(plugins:Array<*>, scene:Scene, camera:Camera):void { }
+	public function renderPlugins(plugins:Array, scene:Scene, camera:Camera):void { }
 	public function initWebGLObjects(scene:Scene):void { }
 	public function initMaterial(material:Material, lights:Vector.<Light>, fog:Fog, object:Object3D):void { }
 	public function setFaceCulling(cullFace:*, frontFace:String):void { }
@@ -92,7 +107,7 @@ public class WebGLRenderer implements IRenderer
 	public function setBlending(blending:int, blendEquation:int, blendSrc:int, blendDst:int):void { }
 	public function setTexture(texture:Texture, slot:int):void { }
 	public function setRenderTarget(renderTarget:WebGLRenderTarget):void { }
-	
+
 }
 
 }

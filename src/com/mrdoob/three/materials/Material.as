@@ -2,7 +2,7 @@ package com.mrdoob.three.materials
 {
 
 
-import com.mrdoob.three.core;
+import com.mrdoob.three.core.EventDispatcher;
 
 [JavaScript(export="false", name="THREE.Material")]
 public class Material extends EventDispatcher
@@ -38,7 +38,7 @@ public class Material extends EventDispatcher
 
 	public var needsUpdate:Boolean;
 	
-	public function new(parameters:*):void { }
+	public function Material(parameters:*):void { }
 
 }
 

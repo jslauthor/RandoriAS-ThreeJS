@@ -1,5 +1,7 @@
-package com.mrdoob.three.renderers.rederables
+package com.mrdoob.three.renderers.renderables
 {
+import com.mrdoob.three.math.Vector3;
+import com.mrdoob.three.math.Vector4;
 
 
 [JavaScript(export="false", name="THREE.RenderableVertex")]

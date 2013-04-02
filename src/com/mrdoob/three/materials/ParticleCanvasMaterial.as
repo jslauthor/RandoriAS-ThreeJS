@@ -2,16 +2,16 @@ package com.mrdoob.three.materials
 {
 
 
-import js.html;
+import com.mrdoob.three.math.Color;
 
 [JavaScript(export="false", name="THREE.ParticleCanvasMaterial")]
 public class ParticleCanvasMaterial extends Material
 {
 	
-	public var color = new THREE.Color( 0xffffff );
-	public var program: Function -> void;
+	public var color:Color;
+	public var program:Function;
 	
-	public function new(parameters:*):void { }
+	public function ParticleCanvasMaterial(parameters:*):void { super(parameters); }
 	public function clone():ParticleCanvasMaterial { return null; }	
 
 }

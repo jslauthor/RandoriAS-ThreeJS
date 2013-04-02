@@ -2,6 +2,7 @@ package com.mrdoob.three.objects
 {
 
 
+import com.mrdoob.three.core.Geometry;
 import com.mrdoob.three.core.Object3D;
 import com.mrdoob.three.materials.Material;
 
@@ -14,7 +15,7 @@ public class Ribbon extends Object3D
 	
 	public function Ribbon(geometry:Geometry, material:Material):void {}
 
-	override public function clone(object:Ribbon):Ribbon { return null; }
+	override public function clone(object:Object3D):Object3D { return null; }
 
 }
 

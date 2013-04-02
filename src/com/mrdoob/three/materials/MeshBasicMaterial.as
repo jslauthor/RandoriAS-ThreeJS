@@ -1,5 +1,7 @@
 package com.mrdoob.three.materials
 {
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.textures.Texture;
 
 
 [JavaScript(export="false", name="THREE.MeshBasicMaterial")]
@@ -33,7 +35,7 @@ public class MeshBasicMaterial extends Material
 	public var skinning:Boolean;
 	public var morphTargets:Boolean;
 	
-	public function new(parameters:*);
+	public function MeshBasicMaterial(parameters:*) { super(parameters); };
 	public function clone():MeshBasicMaterial { return null; }
 }
 

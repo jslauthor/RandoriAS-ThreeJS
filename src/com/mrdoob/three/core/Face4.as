@@ -1,5 +1,7 @@
 package com.mrdoob.three.core
 {
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.math.Vector3;
 
 [JavaScript(export="false", name="THREE.Face4")]
 public class Face4 implements IFace
@@ -22,7 +24,7 @@ public class Face4 implements IFace
 
     public var centroid:Vector3;
 
-    public function new(a:Number, b:Number, c:Number, d:Number, normal:Vector3, color:Vector3, materialIndex:Vector3):void {}
+    public function Face4(a:Number, b:Number, c:Number, d:Number, normal:Vector3, color:Vector3, materialIndex:Vector3):void {}
     public function clone():Face4 { return null; }
 
 }

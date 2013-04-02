@@ -1,5 +1,8 @@
 package com.mrdoob.three.core
 {
+import com.mrdoob.three.cameras.Camera;
+import com.mrdoob.three.math.Vector3;
+import com.mrdoob.three.scenes.Scene;
 
 
 [JavaScript(export="false", name="THREE.Projector")]

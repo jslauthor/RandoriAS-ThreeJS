@@ -2,62 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73168d7c-77b4-4c5b-ac55-8782f39e9321" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingBox.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingSphere.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/HSL.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Info.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Memory.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/vo/MorphTargetVO.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/Point.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Render.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/vo/ShaderVO.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/SubdivisionLength.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Bone.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Bone.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box2.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box3.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/CanvasRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/CanvasRenderer.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Color.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Color.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/CompressedTexture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/CompressedTexture.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/DataTexture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/DataTexture.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/DirectionalLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/DirectionalLight.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/EventDispatcher.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/EventDispatcher.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Fog.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Fog.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/FogExp2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/FogExp2.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Frustum.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Frustum.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/IFace.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/IFace.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/ImageLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/ImageLoader.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/LOD.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/LOD.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Line.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Line.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineBasicMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineDashedMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineDashedMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/Material.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/Material.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix3.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix4.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Mesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Mesh.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshBasicMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshLambertMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshLambertMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshPhongMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshPhongMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/MorphAnimMesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/MorphAnimMesh.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Object3D.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Object3D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/OrthographicCamera.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/OrthographicCamera.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleBasicMaterial.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleCanvasMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleCanvasMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/ParticleSystem.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/ParticleSystem.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/PerspectiveCamera.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/PerspectiveCamera.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/PointLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/PointLight.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Projector.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Projector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Quaternion.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Quaternion.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Ray.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Ray.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace3.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace4.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableLine.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableLine.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableObject.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableObject.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableParticle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableParticle.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableVertex.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableVertex.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Ribbon.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Ribbon.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Scene.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Scene.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/SceneLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/SceneLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/ShaderLib.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/ShaderLib.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ShaderMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ShaderMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/SkinnedMesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/SkinnedMesh.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Sphere.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Sphere.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Spline.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Spline.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/SpotLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/SpotLight.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Sprite.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Sprite.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/Texture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/Texture.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/TextureLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/TextureLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/Three.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/Three.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Triangle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Triangle.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector2.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector3.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector4.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTarget.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTarget.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderer.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -66,17 +99,82 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Camera.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364529178051" ignored="false" />
     <file path="/Three.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364517464562" ignored="false" />
-    <file path="/Vector2.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364522191911" ignored="false" />
-    <file path="/Dummy.txt" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364787666494" ignored="false" />
+    <file path="/Vector2.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911704856" ignored="false" />
+    <file path="/Dummy.txt" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364876207906" ignored="false" />
     <file path="/a.dummy" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364527640361" ignored="false" />
-    <file path="/Object3D.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364529115820" ignored="false" />
+    <file path="/Object3D.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364873320183" ignored="false" />
     <file path="/*.regexp" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364533941125" ignored="false" />
     <file path="/Main.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364529301374" ignored="false" />
     <file path="/SceneLoader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364529574018" ignored="false" />
-    <file path="/BufferGeometry.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364531792631" ignored="false" />
+    <file path="/BufferGeometry.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364873225167" ignored="false" />
     <file path="/Face3.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364532668517" ignored="false" />
-    <file path="/Geometry.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364533877908" ignored="false" />
+    <file path="/Geometry.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364877854684" ignored="false" />
     <file path="/Matrix3.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364535734366" ignored="false" />
+    <file path="/ParticleSystem.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829318204" ignored="false" />
+    <file path="/Matrix4.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364828990528" ignored="false" />
+    <file path="/WebGLRenderer.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364828772899" ignored="false" />
+    <file path="/Info.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364872710506" ignored="false" />
+    <file path="/IRenderer.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915574644" ignored="false" />
+    <file path="/Fog.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364825494492" ignored="false" />
+    <file path="/Texture.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829290568" ignored="false" />
+    <file path="/DataTexture.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829261333" ignored="false" />
+    <file path="/CompressedTexture.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829300269" ignored="false" />
+    <file path="/MeshPhongMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915325669" ignored="false" />
+    <file path="/Vector3.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829546307" ignored="false" />
+    <file path="/Spline.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829760254" ignored="false" />
+    <file path="/SubdivisionLength.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829696690" ignored="false" />
+    <file path="/AmbientLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829835411" ignored="false" />
+    <file path="/AreaLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829854675" ignored="false" />
+    <file path="/Box2.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364829916929" ignored="false" />
+    <file path="/Box3.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364830044295" ignored="false" />
+    <file path="/BoundingBox.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364873122728" ignored="false" />
+    <file path="/BoundingSphere.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364873204455" ignored="false" />
+    <file path="/CanvasRenderer.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364877667205" ignored="false" />
+    <file path="/Clock.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364877791202" ignored="false" />
+    <file path="/Plane.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915741166" ignored="false" />
+    <file path="/PointTarget.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364910500666" ignored="false" />
+    <file path="/PerspectiveCamera.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364910727746" ignored="false" />
+    <file path="/RenderableFace4.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364910766253" ignored="false" />
+    <file path="/RenderableFace3.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364910844048" ignored="false" />
+    <file path="/SpotLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911360828" ignored="false" />
+    <file path="/HSL.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911106728" ignored="false" />
+    <file path="/Color.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911125405" ignored="false" />
+    <file path="/Triangle.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911188156" ignored="false" />
+    <file path="/Frustum.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911454509" ignored="false" />
+    <file path="/LineBasicMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911267715" ignored="false" />
+    <file path="/Material.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911281444" ignored="false" />
+    <file path="/MeshBasicMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911319168" ignored="false" />
+    <file path="/MeshLambertMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911381083" ignored="false" />
+    <file path="/ParticleCanvasMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911405918" ignored="false" />
+    <file path="/TextureLoader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911429219" ignored="false" />
+    <file path="/EventDispatcher.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911493338" ignored="false" />
+    <file path="/ShaderVO.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911641625" ignored="false" />
+    <file path="/DirectionalLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911733555" ignored="false" />
+    <file path="/Line.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911781112" ignored="false" />
+    <file path="/LineDashedMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911795498" ignored="false" />
+    <file path="/SkinnedMesh.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911869401" ignored="false" />
+    <file path="/MorphTargetVO.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911921304" ignored="false" />
+    <file path="/Mesh.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364911967933" ignored="false" />
+    <file path="/MorphAnimMesh.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364912002358" ignored="false" />
+    <file path="/Loader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364914823794" ignored="false" />
+    <file path="/Ray.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364914886620" ignored="false" />
+    <file path="/LOD.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915018314" ignored="false" />
+    <file path="/IFace.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915033464" ignored="false" />
+    <file path="/Sphere.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915045033" ignored="false" />
+    <file path="/Vector4.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915080000" ignored="false" />
+    <file path="/PointLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915209871" ignored="false" />
+    <file path="/ParticleBasicMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915229214" ignored="false" />
+    <file path="/ShaderMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915304424" ignored="false" />
+    <file path="/JSONLoader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915342910" ignored="false" />
+    <file path="/BinaryLoader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915405597" ignored="false" />
+    <file path="/GeometryLoader.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915426458" ignored="false" />
+    <file path="/MeshDepthMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915560054" ignored="false" />
+    <file path="/IMapping.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915581021" ignored="false" />
+    <file path="/HemisphereLight.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915617541" ignored="false" />
+    <file path="/MeshFaceMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915649982" ignored="false" />
+    <file path="/SpriteMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915661780" ignored="false" />
+    <file path="/MeshNormalMaterial.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915673556" ignored="false" />
+    <file path="/WebGLRenderTargetCube.as" changelist="73168d7c-77b4-4c5b-ac55-8782f39e9321" time="1364915701971" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,92 +238,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Geometry.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as">
+      <file leaf-file-name="Plane.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="15" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrthographicCamera.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/cameras/OrthographicCamera.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix3.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix3.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="488" selection-end="498" vertical-scroll-proportion="0.28019926">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferGeometry.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmbientLight.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Raycaster.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaLight.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Light.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clock.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="31" column="59" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.52071667">
+              <folding>
+                <element signature="e#33#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,22 +267,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/ShaderMaterial.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshPhongMaterial.as" />
         <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/SceneLoader.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as" />
         <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as" />
         <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/Face3.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/cameras/OrthographicCamera.as" />
-        <option value="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix3.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as" />
+        <option value="$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as" />
       </list>
     </option>
   </component>
@@ -301,6 +320,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,7 +389,159 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scenes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webglshaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webglshaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +585,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,13 +747,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreeJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cameras" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -546,18 +795,27 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/mrdoob/three/core/vo" />
+    </key>
   </component>
   <component name="RunManager" selected="Randori Application.Randori Run">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="#randori.plugin.runner.RandoriRunnerConfigurationType" factoryName="Randori Application">
       <option name="name" value="Randori Application" />
       <option name="saveOutputToFile" value="false" />
@@ -568,31 +826,12 @@
       <module name="" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -621,6 +860,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -715,17 +967,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998455" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2882535" sideWeight="0.5105348" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2882535" sideWeight="0.48379254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67001545" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.7117465" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -794,103 +1046,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/SceneLoader.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="145" selection-end="145" vertical-scroll-proportion="-1.9090909" />
+        <state line="8" column="76" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1343785">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
+        <state line="6" column="79" selection-start="211" selection-end="211" vertical-scroll-proportion="0.10078388">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Face3.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+        <state line="7" column="55" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+        <state line="11" column="77" selection-start="303" selection-end="303" vertical-scroll-proportion="0.18477044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+        <state line="8" column="7" selection-start="160" selection-end="160" vertical-scroll-proportion="0.083986565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="2" column="11" selection-start="47" selection-end="47" vertical-scroll-proportion="0.033594623">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="60" selection-start="360" selection-end="360" vertical-scroll-proportion="0.23516238">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="15" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.06718925">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+        <state line="8" column="123" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13636364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/cameras/OrthographicCamera.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/materials/Material.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.11758119">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="83" selection-start="230" selection-end="230" vertical-scroll-proportion="0.1343785">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix3.as">
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="488" selection-end="498" vertical-scroll-proportion="0.28019926">
+        <state line="8" column="75" selection-start="218" selection-end="218" vertical-scroll-proportion="0.1343785">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTarget.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#38#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="117" selection-start="317" selection-end="317" vertical-scroll-proportion="0.16797313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="79" selection-start="327" selection-end="327" vertical-scroll-proportion="0.21836506">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="59" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.52071667">
+          <folding>
+            <element signature="e#33#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

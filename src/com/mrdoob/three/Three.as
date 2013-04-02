@@ -7,8 +7,6 @@ package com.mrdoob.three
     public class Three
     {
 
-        public static const int32Array:Vector.<int>;
-        public static const Number32Array:Array.<Number>;
         public static var Object3DIdCount:int = 0;
 
         public static const CullFaceNone:int = 0;

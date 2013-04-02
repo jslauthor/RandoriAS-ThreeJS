@@ -1,7 +1,10 @@
 package com.mrdoob.three.core
 {
+import com.mrdoob.three.math.Matrix4;
+import com.mrdoob.three.math.Quaternion;
+import com.mrdoob.three.math.Vector3;
 
-    [JavaScript(export="false", name="THREE.Object3D")]
+[JavaScript(export="false", name="THREE.Object3D")]
     public class Object3D
     {
 
@@ -58,7 +61,7 @@ package com.mrdoob.three.core
         public function traverse(call:Function):void { }
 
         public function getChildByName(name:String, recursive:Boolean):Object3D { return null; }
-        public function getDescendants(array:Vector.<Object3D>):Vector.<Object3D>;
+        public function getDescendants(array:Vector.<Object3D>):Vector.<Object3D> { return null; }
 
         public function updateMatrix():void { }
         public function updateMatrixWorld(force:Boolean=false):void { }

@@ -1,5 +1,7 @@
-package com.mrdoob.three.renderers.rederables
+package com.mrdoob.three.renderers.renderables
 {
+import com.mrdoob.three.core.Object3D;
+import com.mrdoob.three.math.Vector2;
 
 
 [JavaScript(export="false", name="THREE.RenderableParticle")]

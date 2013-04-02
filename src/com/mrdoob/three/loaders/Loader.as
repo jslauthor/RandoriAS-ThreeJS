@@ -1,8 +1,7 @@
 package com.mrdoob.three.loaders
 {
 
-
-import js.html;
+import randori.webkit.dom.Element;
 
 [JavaScript(export="false", name="THREE.Loader")]
 public class Loader
@@ -14,7 +13,7 @@ public class Loader
 	public var onLoadProgress:Function;
 	public var onLoadComplete:Function;
 	
-	public function new (showStatus:Boolean):void { }
+	public function Loader(showStatus:Boolean):void { }
 
 }
 

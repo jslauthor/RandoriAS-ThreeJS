@@ -1,17 +1,17 @@
 package com.mrdoob.three.math
 {
-
+import com.mrdoob.three.math.vo.SubdivisionLength;
 
 [JavaScript(export="false", name="THREE.Spline")]
 public class Spline
 {
-    public var points:Array<{x:Number, y:Number, z:Number}>;
+    public var points:Array;
     
-    public function new(points:Vector.<Number>): void { return null; }
-    public function initFromArray(a:Array<Vector.<Number>>):void { }
-    public function getPoint(k:Number):{x:Number, y:Number, z:Number};
-    public function getControlPointsArray():Array<Vector.<Number>>;
-    public function getLength(nSubDivisions:int):{chunks:Vector.<Number>, total:Number};
+    public function Spline(points:Vector.<Number>): void { }
+    public function initFromArray(a:Array):void { }
+    public function getPoint(k:Number):Vector3 { return null; }
+    public function getControlPointsArray():Vector.<Vector.<Number>> { return null; }
+    public function getLength(nSubDivisions:int):SubdivisionLength { return null; }
     public function reparametrizeByArcLength(samplingCoef:Number):void { }
     public function interpolate(p0:Number, p1:Number, p2:Number, p4:Number, t:Number, t2:Number, t3:Number): Number { return null; }
     

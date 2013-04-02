@@ -6,7 +6,7 @@ package com.mrdoob.three.materials
 public class MeshFaceMaterial extends Material
 {
 	
-	public function new(materials:Vector.<Material>):void { }
+	public function MeshFaceMaterial(materials:Vector.<Material>):void { super(null); }
 	public function clone():MeshFaceMaterial { return null; }
 
 }

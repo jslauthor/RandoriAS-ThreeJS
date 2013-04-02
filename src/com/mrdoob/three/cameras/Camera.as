@@ -1,8 +1,10 @@
 package com.mrdoob.three.cameras
 {
 import com.mrdoob.three.core.Object3D;
+import com.mrdoob.three.math.Matrix4;
+import com.mrdoob.three.math.Vector3;
 
-    [JavaScript(export="false", name="THREE.Camera")]
+[JavaScript(export="false", name="THREE.Camera")]
     public class Camera extends Object3D
     {
 

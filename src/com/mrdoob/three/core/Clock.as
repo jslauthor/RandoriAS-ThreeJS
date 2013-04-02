@@ -6,9 +6,9 @@ package com.mrdoob.three.core
 public class Clock
 {
 	
-	public var startTime:Float;
-	public var oldTime:Float;
-	public var elapsedTime:Float;
+	public var startTime:Number;
+	public var oldTime:Number;
+	public var elapsedTime:Number;
 
 	public var running:Boolean;
 	

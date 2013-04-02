@@ -36,7 +36,7 @@ public class Vector2
 	public function setLength(length:Number):Vector2 { return null; }
 	public function lerp(vector:Vector2, alpha:Number):Vector2 { return null; }
 	public function equals(vector:Vector2):Boolean { return null; }
-	public function toArray():Vector.<Number>;
+	public function toArray():Vector.<Number> { return null; };
 	public function clone():Vector2 { return null; }
 	
 }

@@ -6,7 +6,7 @@ package com.mrdoob.three.lights
 public class HemisphereLight extends Light
 {
 	
-	public function new(skyColorHex:Number, groundColorHex:Number, intensity:Number);
+	public function HemisphereLight(skyColorHex:Number, groundColorHex:Number, intensity:Number):void { super(skyColorHex); };
 
 }
 

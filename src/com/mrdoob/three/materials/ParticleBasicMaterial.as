@@ -1,5 +1,7 @@
 package com.mrdoob.three.materials
 {
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.textures.Texture;
 
 
 [JavaScript(export="false", name="THREE.ParticleBasicMaterial")]
@@ -17,7 +19,7 @@ public class ParticleBasicMaterial extends Material
 
 	public var fog:Boolean;
 	
-	public function new(parameters:*):void { }
+	public function ParticleBasicMaterial(parameters:*):void { super(parameters); }
 	public function clone():ParticleBasicMaterial { return null; }	
 	
 }

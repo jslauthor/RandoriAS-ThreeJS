@@ -1,11 +1,16 @@
 package com.mrdoob.three.lights
 {
 
+import com.mrdoob.three.cameras.Camera;
+import com.mrdoob.three.core.Object3D;
+import com.mrdoob.three.math.Matrix4;
+import com.mrdoob.three.math.Vector3;
+
 
 [JavaScript(export="false", name="THREE.SpotLight")]
-class SpotLight extends Light
-	
-	public var position:Vector3;
+public class SpotLight extends Light
+{
+
 	public var target:Object3D;
 
 	public var intensity:Number;
@@ -13,7 +18,6 @@ class SpotLight extends Light
 	public var angle:Number;
 	public var exponent:Number;
 
-	public var castShadow:Boolean
 	public var onlyShadow:Boolean
 
 	public var shadowCameraNear:Number;
@@ -31,9 +35,9 @@ class SpotLight extends Light
 	public var shadowMap:Number; // TODO: Which type is this
 	public var shadowMapSize:Number;
 	public var shadowCamera:Camera;
-	public var shadowMatrix:Matrix;
+	public var shadowMatrix:Matrix4;
 	
-	public function new (color:Number, intensity:Number, distance:Number, castShadow:Boolean):void { }
+	public function SpotLight(color:Number, intensity:Number, distance:Number, castShadow:Boolean):void { super(color); }
 
 }
 

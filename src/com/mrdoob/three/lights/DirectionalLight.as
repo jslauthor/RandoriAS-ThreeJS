@@ -1,17 +1,19 @@
 package com.mrdoob.three.lights
 {
+import com.mrdoob.three.cameras.Camera;
+import com.mrdoob.three.core.Object3D;
+import com.mrdoob.three.math.Matrix4;
+import com.mrdoob.three.math.Vector3;
 
 
 [JavaScript(export="false", name="THREE.DirectionalLight")]
 public class DirectionalLight extends Light
 {
 	
-	public var position:Vector3;
 	public var target:Object3D;
 
 	public var intensity:Number;
 
-	public var castShadow:Boolean;
 	public var onlyShadow:Boolean;
 
 	public var shadowCameraNear:Number;
@@ -42,14 +44,14 @@ public class DirectionalLight extends Light
 	public var shadowCascadeNearZ:Vector.<Number>;
 	public var shadowCascadeFarZ:Vector.<Number>;
 
-	public var shadowCascadeArray:Array<*>; // TODO: Not sure what type this should be
+	public var shadowCascadeArray:Array; // TODO: Not sure what type this should be
 
 	public var shadowMap:Number; // TODO: Which type is this
 	public var shadowMapSize:Number;
 	public var shadowCamera:Camera;
 	public var shadowMatrix:Matrix4
 	
-	public function new(hex:Number, intensity:Number);
+	public function DirectionalLight(hex:Number, intensity:Number):void { super(hex); };
 
 }
 

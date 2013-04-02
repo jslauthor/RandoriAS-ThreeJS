@@ -1,3 +1,6 @@
-package com.mrdooob.three.textures;
+package com.mrdoob.three.textures
+{
+    public interface IMapping {}
+}
 
-interface IMapping {}
+

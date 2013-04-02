@@ -24,9 +24,9 @@ public class Triangle
 	public function equals(triangle:Triangle):Boolean { return null; }
 	public function clone():Triangle { return null; }
 	
-	public static function normal():Vector3 -> Vector3 -> Vector3 -> Vector3 -> Vector3;
-	public static function barycoordFromPoint():Vector3 -> Vector3 -> Vector3 -> Vector3 -> Vector3 -> Vector3;
-	public static function containsPoint():Vector3 -> Vector3 -> Vector3 -> Vector3 -> Boolean;
+	public static function normal():Function { return null };
+	public static function barycoordFromPoint():Function { return null };
+	public static function containsPoint():Function { return null };
 
 }
 

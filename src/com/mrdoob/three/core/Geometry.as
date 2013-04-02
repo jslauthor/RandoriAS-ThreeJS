@@ -1,6 +1,7 @@
 package com.mrdoob.three.core
 {
 
+import com.mrdoob.three.core.vo.BoundingSphere;
 import com.mrdoob.three.materials.Material;
 import com.mrdoob.three.math.Color;
 import com.mrdoob.three.math.Matrix4;
@@ -25,17 +26,17 @@ public class Geometry
     public var faceUvs:Vector.<Array>;
     public var faceVertexUvs:Vector.<Array>;
 
-    public var morphTargets:Array<{name:String, vertices:Vector.<Vector3>}>;
-    public var morphColors:Array<{name:String, colors:Vector.<Color>}>;
-    public var morphNormals:Array<{name:String, vertices:Vector.<Vector3>}>;
+    public var morphTargets:Array;
+    public var morphColors:Array;
+    public var morphNormals:Array;
 
     public var skinWeights:Vector.<Vector4>;
     public var skinIndices:Vector.<Vector4>;
 
     public var lineDistances:Number;
 
-    public var boundingBox:{ x:Vector.<Number>, y:Vector.<Number>, z:Vector.<Number> };
-    public var boundingSphere:{ radius:Number };
+    public var boundingBox:Vector3;
+    public var boundingSphere:BoundingSphere;
 
     public var hasTangents:Boolean;
     /*	public var *:Boolean; // the intermediate typed arrays will be deleted when set to false*/

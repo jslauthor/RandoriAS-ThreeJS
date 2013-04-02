@@ -20,7 +20,7 @@ public class Sphere
 	public function intersectsSphere(sphere:Sphere):Boolean { return null; }
 	public function clampPoint(point:Vector3, optionalTarget:Vector3):Vector3 { return null; }
 	public function getBoundingBox(optionalTarget:Box3):Box3 { return null; }
-	public function applyMatrix4(matrix:Matrix):Sphere { return null; }
+	public function applyMatrix4(matrix:Matrix4):Sphere { return null; }
 	public function translate(offset:Vector3):Sphere { return null; }
 	public function equals(sphere:Sphere):Boolean { return null; }
 	public function clone():Sphere { return null; }

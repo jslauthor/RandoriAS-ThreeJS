@@ -1,5 +1,8 @@
 package com.mrdoob.three.materials
 {
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.math.Vector3;
+import com.mrdoob.three.textures.Texture;
 
 
 [JavaScript(export="false", name="THREE.MeshLambertMaterial")]
@@ -39,7 +42,7 @@ public class MeshLambertMaterial extends Material
 	public var morphTargets:Boolean;
 	public var morphNormals:Boolean;
 			
-	public function new(parameters:*):void { }
+	public function MeshLambertMaterial(parameters:*):void { super(parameters); }
 	public function clone():MeshLambertMaterial { return null; }
 
 }

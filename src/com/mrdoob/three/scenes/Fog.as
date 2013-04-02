@@ -1,4 +1,7 @@
-package com.mrdooob.three.scenes;
+package com.mrdoob.three.scenes
+{
+
+import com.mrdoob.three.math.Color;
 
 [JavaScript(export="false", name="THREE.Fog")]
 public class Fog
@@ -11,5 +14,7 @@ public class Fog
     public function Fog(hex:int, near:Number, far:Number):void {}
 
     public function clone():Fog { return null; }		
+
+}
 
 }

@@ -51,7 +51,7 @@ public class Vector4
 	public function lerp(vector:Vector4, alpha:Number):Vector4 { return null; }
 
 	public function equals(vector:Vector4):Boolean { return null; }
-	public function toArray():Vector.<Number>;
+	public function toArray():Vector.<Number> { return null; };
 	public function clone():Vector4 { return null; }
 
 }

@@ -6,7 +6,7 @@ package com.mrdoob.three.lights
 public class AreaLight extends Light
 {
 	
-	public function AreaLight(hex:Float, intensity:Float):void {}
+	public function AreaLight(hex:Number, intensity:Number):void { super(hex); }
 
 
 }

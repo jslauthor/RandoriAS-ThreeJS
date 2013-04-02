@@ -5,7 +5,7 @@ package com.mrdoob.three.loaders
 public class GeometryLoader extends Loader
 {
 	
-	public function GeometryLoader():void {}
+	public function GeometryLoader():void { super(false); }
 	public function load(url:String):void { }
 	public function parse(data:*, monitor:LoadingMonitor):void { } // TODO: What is data supposed to be
 

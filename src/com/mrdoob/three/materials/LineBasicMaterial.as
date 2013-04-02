@@ -1,5 +1,6 @@
 package com.mrdoob.three.materials
 {
+import com.mrdoob.three.math.Color;
 
 
 [JavaScript(export="false", name="THREE.Material")]
@@ -16,7 +17,7 @@ public class LineBasicMaterial extends Material
 
 	public var fog:Boolean;
 	
-	public function new(parameters:*):void
+	public function LineBasicMaterial(parameters:*):void { super(parameters); }
 	public function clone():LineBasicMaterial { return null; }
 
 }

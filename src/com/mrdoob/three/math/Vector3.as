@@ -65,14 +65,14 @@ public class Vector3
 	public function getColumnFromMatrix(index:int, matrix:Matrix4):Vector3 { return null; }
 	
 	public function equals(vector:Vector3):Boolean { return null; }
-	public function toArray():Vector.<Number>;
+	public function toArray():Vector.<Number> { return null; }
 	public function clone():Vector3 { return null; }
 
-	public function applyEuler():Vector3 -> Function3;
-	public function applyAxisAngle():Vector3 -> Function3;
-	public function projectOnVector():Vector3 -> Vector3;
-	public function projectOnPlane():Function3 { return null; }
-	public function reflect():Vector3 -> Vector3;
+	public function applyEuler():Function { return null; }
+	public function applyAxisAngle():Function { return null; }
+	public function projectOnVector():Function { return null; }
+	public function projectOnPlane():Function { return null; }
+	public function reflect():Function { return null; }
 
 }
 

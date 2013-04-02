@@ -9,13 +9,13 @@ import com.mrdoob.three.cameras.Camera;
 public class LOD extends Object3D
 {
 	
-	public var LODs:Array<{visibleAtDistance:Number, object3D:Object3D}>;
+	public var LODs:Array;
 	
 	public function LOD():void {}
 	public function addLevel(object3D:Object3D, visibleAtDistance:Boolean):void { }
 	public function update(camera:Camera):void { }
 
-	public function clone():void { } // Not implemented yet
+	override public function clone(object:Object3D):Object3D { return null; } // Not implemented yet
 
 }
 

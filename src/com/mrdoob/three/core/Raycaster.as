@@ -1,5 +1,7 @@
 package com.mrdoob.three.core
 {
+import com.mrdoob.three.math.Ray;
+import com.mrdoob.three.math.Vector3;
 
 
 [JavaScript(export="false", name="THREE.Raycaster")]

@@ -1,5 +1,6 @@
 package com.mrdoob.three.materials
 {
+import com.mrdoob.three.math.Color;
 
 
 [JavaScript(export="false", name="THREE.LineDashedMaterial")]
@@ -18,7 +19,7 @@ public class LineDashedMaterial extends Material
 
 	public var fog:Boolean;
 	
-	public function new(parameters:*):void { }
+	public function LineDashedMaterial(parameters:*):void { super(parameters); }
 	public function clone():LineDashedMaterial { return null; }
 
 }

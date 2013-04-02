@@ -1,6 +1,7 @@
-package com.mrdoob.three.renderers.rederables
+package com.mrdoob.three.renderers.renderables
 {
 
+import com.mrdoob.three.materials.Material;
 
 [JavaScript(export="false", name="THREE.RenderableLine")]
 public class RenderableLine

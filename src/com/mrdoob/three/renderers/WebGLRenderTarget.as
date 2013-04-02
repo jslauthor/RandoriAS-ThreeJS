@@ -1,8 +1,8 @@
 package com.mrdoob.three.renderers
 {
 
-
 import com.mrdoob.three.core.EventDispatcher;
+import com.mrdoob.three.math.Vector2;
 
 [JavaScript(export="false", name="THREE.WebGLRenderTarget")]
 public class WebGLRenderTarget extends EventDispatcher
@@ -29,7 +29,7 @@ public class WebGLRenderTarget extends EventDispatcher
 
 	public var shareDepthFrom:WebGLRenderTarget;
 	
-	public function new(width:Number, height:Number, options:*):void { }
+	public function WebGLRenderTarget(width:Number, height:Number, options:*):void { }
 	public function clone():WebGLRenderTarget { return null; }
 	public function dispose():void { }
 

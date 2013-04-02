@@ -1,5 +1,8 @@
-package com.mrdoob.three.renderers.rederables
+package com.mrdoob.three.renderers.renderables
 {
+import com.mrdoob.three.materials.Material;
+import com.mrdoob.three.math.Color;
+import com.mrdoob.three.math.Vector3;
 
 
 [JavaScript(export="false", name="THREE.RenderableFace4")]
@@ -22,7 +25,7 @@ public class RenderableFace4
 
 	public var color:Color
 	public var material:Material
-	public var uvs:Array<Array<*>>;
+	public var uvs:Vector.<Array>;
 
 	public var z:Number;
 	public function RenderableFace():void {}
