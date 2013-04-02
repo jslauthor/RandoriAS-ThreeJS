@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="IdProvider" IDEtalkID="B0F715B23E590B63DC24FA969207F261" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Randori SDK 0.2.0" project-jdk-type="Randori SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Randori SDK 0.2.3" project-jdk-type="Randori SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="RandoriProject">
-    <option name="port" value="49340" />
+    <option name="port" value="49697" />
   </component>
 </project>
 

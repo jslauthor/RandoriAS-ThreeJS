@@ -1,0 +1,5 @@
+.threejsApp
+{
+    -randori-context: com.leonardsouza.threejs.context.AppContext;
+    -randori-mediator: com.leonardsouza.threejs.mediators.MainMediator;
+}
