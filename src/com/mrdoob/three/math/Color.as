@@ -1,6 +1,6 @@
 package com.mrdoob.three.math
 {
-import com.mrdoob.three.math.vo.HSL;
+import com.mrdoob.three.math.vo.HSLVO;
 
 
 [JavaScript(export="false", name="THREE.Color")]
@@ -24,7 +24,7 @@ public class Color
 	public function setHSL(h:Number, s:Number, l:Number):Color { return null; }
 	public function getHex():int { return null; }
 	public function getHexString():String { return null; }
-	public function getHSL():HSL { return null };
+	public function getHSL():HSLVO { return null };
 	public function setHex(hex:Number):Color { return null; }
 	public function getStyle():String { return null; }
 	public function setStyle(contextStyle:String):Color { return null; }

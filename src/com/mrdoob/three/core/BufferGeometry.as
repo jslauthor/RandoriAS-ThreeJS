@@ -1,7 +1,7 @@
 package com.mrdoob.three.core
 {
-import com.mrdoob.three.core.vo.BoundingBox;
-import com.mrdoob.three.core.vo.BoundingSphere;
+import com.mrdoob.three.core.vo.BoundingBoxVO;
+import com.mrdoob.three.core.vo.BoundingSphereVO;
 import com.mrdoob.three.math.Matrix4;
 
 [JavaScript(export="false", name="THREE.BufferGeometry")]
@@ -13,8 +13,8 @@ public class BufferGeometry
 	public var dynamic:Boolean;
 	public var offsets:Array;
 
-	public var boundingBox:BoundingBox;
-	public var boundingSphere:BoundingSphere;
+	public var boundingBox:BoundingBoxVO;
+	public var boundingSphere:BoundingSphereVO;
 
 	public var hasTangents:Boolean;
 

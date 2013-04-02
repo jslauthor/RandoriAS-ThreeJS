@@ -2,98 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73168d7c-77b4-4c5b-ac55-8782f39e9321" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingBox.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingSphere.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/HSL.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Info.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Memory.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/vo/MorphTargetVO.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/Point.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Render.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/vo/ShaderVO.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/SubdivisionLength.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AmbientLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/AreaLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/BinaryLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box2.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Box3.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingBox.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingBoxVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingSphere.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/vo/BoundingSphereVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/HSL.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/HSLVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/Point.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/PointVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/SubdivisionLength.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/vo/SubdivisionLengthVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Info.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/InfoVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Memory.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/MemoryVO.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/Render.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/vo/RenderVO.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/BufferGeometry.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/Camera.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/CanvasRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/CanvasRenderer.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Clock.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Color.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Color.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/CompressedTexture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/CompressedTexture.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/DataTexture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/DataTexture.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/DirectionalLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/DirectionalLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/EventDispatcher.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/EventDispatcher.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Face4.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Fog.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Fog.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/FogExp2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/FogExp2.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Frustum.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Frustum.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Geometry.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/GeometryLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/HemisphereLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/IFace.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/IFace.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/IMapping.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/IRenderer.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/ImageLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/ImageLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/JSONLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/LOD.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/LOD.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/Light.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Line.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Line.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineBasicMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineDashedMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/LineDashedMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/Loader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/LoadingMonitor.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/Material.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/Material.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Matrix4.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Mesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Mesh.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshBasicMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshDepthMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshFaceMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshLambertMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshLambertMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshNormalMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshPhongMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/MeshPhongMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/MorphAnimMesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/MorphAnimMesh.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Object3D.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Object3D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Particle.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleBasicMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleBasicMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleCanvasMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ParticleCanvasMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/ParticleSystem.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/ParticleSystem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/PerspectiveCamera.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/cameras/PerspectiveCamera.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/Main.js" afterPath="$PROJECT_DIR$/generated/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/PointLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/PointLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Projector.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Projector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Ray.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Ray.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/core/Raycaster.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace3.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableFace4.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableLine.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableLine.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableObject.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableObject.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableParticle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableParticle.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableVertex.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/renderables/RenderableVertex.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Ribbon.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Ribbon.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Scene.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/scenes/Scene.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/ShaderLib.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/webglshaders/ShaderLib.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ShaderMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/ShaderMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/SkinnedMesh.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/SkinnedMesh.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Sphere.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Sphere.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Spline.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Spline.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/lights/SpotLight.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/lights/SpotLight.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Sprite.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/objects/Sprite.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/materials/SpriteMaterial.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/textures/Texture.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/textures/Texture.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/TextureLoader.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/loaders/TextureLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/Three.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/Three.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Triangle.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Triangle.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector2.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector2.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector3.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector3.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector4.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/math/Vector4.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTarget.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTarget.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderTargetCube.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/com/mrdoob/three/Three.js" afterPath="$PROJECT_DIR$/generated/com/mrdoob/three/Three.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderer.as" afterPath="$PROJECT_DIR$/src/com/mrdoob/three/renderers/WebGLRenderer.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThreeJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -241,9 +166,9 @@
       <file leaf-file-name="Plane.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="59" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.52071667">
+            <state line="38" column="1" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.63829786">
               <folding>
-                <element signature="e#33#71#0" expanded="true" />
+                <element signature="e#33#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -958,7 +883,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="22" width="1280" height="1414" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,7 +902,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.7117465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.7117465" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1155,9 +1080,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrdoob/three/math/Plane.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="59" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.52071667">
+        <state line="38" column="1" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.63829786">
           <folding>
-            <element signature="e#33#71#0" expanded="true" />
+            <element signature="e#33#73#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,12 +2,11 @@ package com.mrdoob.three.math.vo
 {
 
 [JavaScript(export="false",name="Object",mode="json")]
-public class HSL
+public class PointVO
 {
 
-    public var h:Number;
-    public var s:Number;
-    public var l:Number;
+    public var x:Number;
+    public var y:Number;
 
 }
 }

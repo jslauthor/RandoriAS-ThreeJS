@@ -1,6 +1,6 @@
 package com.mrdoob.three.math
 {
-import com.mrdoob.three.math.vo.Point;
+import com.mrdoob.three.math.vo.PointVO;
 
 
 [JavaScript(export="false", name="THREE.Frustum")]
@@ -16,7 +16,7 @@ public class Frustum
 	public function setFromMatrix(matrix:Matrix4):Frustum { return null; }
 	public function intersectsObject():Boolean { return null; }
 	public function intersectSphere(sphere:Sphere):Boolean { return null; }
-	public function containsPoint(point:Point):Boolean { return null; }
+	public function containsPoint(point:PointVO):Boolean { return null; }
 	public function clone():Frustum { return null; }
 
 }

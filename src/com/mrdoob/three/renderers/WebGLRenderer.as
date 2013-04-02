@@ -8,7 +8,7 @@ import com.mrdoob.three.core.Object3D;
 import com.mrdoob.three.lights.Light;
 import com.mrdoob.three.materials.Material;
 import com.mrdoob.three.math.Color;
-import com.mrdoob.three.renderers.vo.Info;
+import com.mrdoob.three.renderers.vo.InfoVO;
 import com.mrdoob.three.scenes.Fog;
 import com.mrdoob.three.scenes.Scene;
 import com.mrdoob.three.textures.Texture;
@@ -59,7 +59,7 @@ public class WebGLRenderer implements IRenderer
     public var renderPluginsPre:Array; // TODO
     public var renderPluginsPost:Array; // TODO
     
-    public var info:Info;
+    public var info:InfoVO;
     
     public function WebGLRenderer(parameters:*):void { }
     public function getContext():WebGLContext { return null; }

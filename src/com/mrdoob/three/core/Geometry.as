@@ -1,7 +1,7 @@
 package com.mrdoob.three.core
 {
 
-import com.mrdoob.three.core.vo.BoundingSphere;
+import com.mrdoob.three.core.vo.BoundingSphereVO;
 import com.mrdoob.three.materials.Material;
 import com.mrdoob.three.math.Color;
 import com.mrdoob.three.math.Matrix4;
@@ -36,7 +36,7 @@ public class Geometry
     public var lineDistances:Number;
 
     public var boundingBox:Vector3;
-    public var boundingSphere:BoundingSphere;
+    public var boundingSphere:BoundingSphereVO;
 
     public var hasTangents:Boolean;
     /*	public var *:Boolean; // the intermediate typed arrays will be deleted when set to false*/
