@@ -6,7 +6,7 @@ import randori.webkit.page.Window;
 public class RequestAnimationFrame
 {
 
-    public static function request(callback:Function):void
+    public function request(callback:Function):void
     {
         var w:* = Window;
 

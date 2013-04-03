@@ -1,7 +1,7 @@
 package com.leonardsouza.threejs.mediators
 {
 
-import com.com.mrdoob.stats.Stats;
+import com.mrdoob.stats.Stats;
 import com.mrdoob.three.Three;
 import com.mrdoob.three.cameras.PerspectiveCamera;
 import com.mrdoob.three.extras.geometries.CubeGeometry;
@@ -43,6 +43,9 @@ public class MainMediator extends AbstractMediator
     protected var mouseXOnMouseDown = 0;
     protected var windowHalfX = window.innerWidth / 2;
     protected var windowHalfY = window.innerHeight / 2;
+
+    [Inject]
+    public var animation:RequestAnimationFrame;
 
     override protected function onRegister():void
     {
@@ -112,6 +115,7 @@ public class MainMediator extends AbstractMediator
     {
         event.preventDefault();
 
+        Window.console.log("down");
         window.document.addEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.addEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.addEventListener( 'mouseout', onDocumentMouseOut, false );
@@ -163,6 +167,7 @@ public class MainMediator extends AbstractMediator
 
     private function onDocumentMouseUp(event:MouseEvent):void
     {
+        Window.console.log("up");
         window.document.removeEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.removeEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.removeEventListener( 'mouseout', onDocumentMouseOut, false );
@@ -170,6 +175,7 @@ public class MainMediator extends AbstractMediator
 
     private function onDocumentMouseOut(event:MouseEvent):void
     {
+        Window.console.log("out");
         window.document.removeEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.removeEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.removeEventListener( 'mouseout', onDocumentMouseOut, false );
@@ -177,16 +183,14 @@ public class MainMediator extends AbstractMediator
 
     private function startRender():void
     {
-        RequestAnimationFrame.request(startRender);
+        animation.request(startRender);
 
         render();
         stats.update();
     }
 
-    private function render()
+    private function render():void
     {
-        window.console.log("render");
-
         plane.rotation.y = cube.rotation.y += ( targetRotation - cube.rotation.y ) * 0.05;
         renderer.render( scene, camera );
     }

@@ -1,7 +1,7 @@
 package com.leonardsouza.threejs.mediators
 {
 
-import com.com.mrdoob.stats.Stats;
+import com.mrdoob.stats.Stats;
 import com.mrdoob.three.Three;
 import com.mrdoob.three.cameras.PerspectiveCamera;
 import com.mrdoob.three.extras.geometries.CubeGeometry;

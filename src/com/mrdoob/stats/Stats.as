@@ -1,4 +1,4 @@
-package com.com.mrdoob.stats
+package com.mrdoob.stats
 {
 import randori.webkit.dom.Element;
 
