@@ -1,4 +1,4 @@
-/** Compiled by the Randori compiler v0.2.3 on Tue Apr 02 15:27:29 PDT 2013 */
+/** Compiled by the Randori compiler v0.2.3 on Tue Apr 02 21:57:10 PDT 2013 */
 
 if (typeof com == "undefined")
 	var com = {};
@@ -72,6 +72,7 @@ com.leonardsouza.threejs.mediators.MainMediator.prototype.onRegister = function(
 
 com.leonardsouza.threejs.mediators.MainMediator.prototype.onDocumentMouseDown = function(event) {
 	event.preventDefault();
+	console.log("down");
 	window.document.addEventListener("mousemove", $createStaticDelegate(this, this.onDocumentMouseMove), false);
 	window.document.addEventListener("mouseup", $createStaticDelegate(this, this.onDocumentMouseUp), false);
 	window.document.addEventListener("mouseout", $createStaticDelegate(this, this.onDocumentMouseOut), false);
@@ -109,12 +110,14 @@ com.leonardsouza.threejs.mediators.MainMediator.prototype.onDocumentMouseMove = 
 };
 
 com.leonardsouza.threejs.mediators.MainMediator.prototype.onDocumentMouseUp = function(event) {
+	console.log("up");
 	window.document.removeEventListener("mousemove", $createStaticDelegate(this, this.onDocumentMouseMove), false);
 	window.document.removeEventListener("mouseup", $createStaticDelegate(this, this.onDocumentMouseUp), false);
 	window.document.removeEventListener("mouseout", $createStaticDelegate(this, this.onDocumentMouseOut), false);
 };
 
 com.leonardsouza.threejs.mediators.MainMediator.prototype.onDocumentMouseOut = function(event) {
+	console.log("out");
 	window.document.removeEventListener("mousemove", $createStaticDelegate(this, this.onDocumentMouseMove), false);
 	window.document.removeEventListener("mouseup", $createStaticDelegate(this, this.onDocumentMouseUp), false);
 	window.document.removeEventListener("mouseout", $createStaticDelegate(this, this.onDocumentMouseOut), false);

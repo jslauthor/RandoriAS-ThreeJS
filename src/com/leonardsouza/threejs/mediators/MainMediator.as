@@ -21,6 +21,7 @@ import randori.webkit.dom.MouseEvent;
 import randori.webkit.dom.TouchEvent;
 import randori.webkit.html.HTMLDivElement;
 import randori.webkit.html.HTMLElement;
+import randori.webkit.page.Window;
 
 public class MainMediator extends AbstractMediator
 {
@@ -114,6 +115,7 @@ public class MainMediator extends AbstractMediator
     {
         event.preventDefault();
 
+        Window.console.log("down");
         window.document.addEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.addEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.addEventListener( 'mouseout', onDocumentMouseOut, false );
@@ -165,6 +167,7 @@ public class MainMediator extends AbstractMediator
 
     private function onDocumentMouseUp(event:MouseEvent):void
     {
+        Window.console.log("up");
         window.document.removeEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.removeEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.removeEventListener( 'mouseout', onDocumentMouseOut, false );
@@ -172,6 +175,7 @@ public class MainMediator extends AbstractMediator
 
     private function onDocumentMouseOut(event:MouseEvent):void
     {
+        Window.console.log("out");
         window.document.removeEventListener( 'mousemove', onDocumentMouseMove, false );
         window.document.removeEventListener( 'mouseup', onDocumentMouseUp, false );
         window.document.removeEventListener( 'mouseout', onDocumentMouseOut, false );
